@@ -14,22 +14,15 @@ The SDN stands for Software Defined Networking. Deploying traditional network de
 
 Flexible Deployments
 --------------------
-Don’t like the cloud connection? Don’t want a controller agent? 
+Don’t like the cloud connection? Don’t want a controller agent? No problem! No problem!
 
-No problem! Omada SDN solution devices were evolute from traditional networking devices. All devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your favorites, you can design a different network styles with Omada SDN solutions. 
+Omada SDN solution devices were evolute from traditional networking devices. All devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your favorites, you can design a different network styles with Omada SDN solutions. 
 
 
 Topics
 ------
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
    introduction
-
-
-Reference
----------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   howto/controller_ubuntu
