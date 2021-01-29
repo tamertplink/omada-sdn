@@ -8,14 +8,16 @@ TP-Link Omada SDN
 
 TP-Link Omada SDN is an easy to use business class corporate networking systems.
 
+Topics
+------
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   introduction
 
 
-
-Indices and tables
-==================
+Reference
+---------
 
 * :ref:`genindex`
 * :ref:`modindex`

@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Omada SDN'
-copyright = '2021, Vincent Tu'
-author = 'Vincent Tu'
+project = u'Omada SDN'
+copyright = u'2021, TP-Link USA'
+# author = 'Vincent Tu'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
