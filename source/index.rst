@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Omada SDN Set Up Guide
-======================
+TP-Link Omada SDN
+=================
+
+TP-Link Omada SDN is an easy to use business class corporate networking systems.
 
 .. toctree::
    :maxdepth: 2
