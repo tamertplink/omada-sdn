@@ -12,9 +12,7 @@ There are three different flavors of controllers in Omada SDN. Hardware, softwar
 .. image:: /images/controller_compare.png
 
 
-Flexible Deployments
---------------------
+Standalone Mode
+---------------
 
-**Don’t like the cloud connection? Don’t want a controller agent? No problem!**
-
-Omada SDN solution devices were evolute from traditional networking devices. All devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your favorites, you can design a different network styles with Omada SDN solutions. 
+All the Omada SDN devices can work in standalone mode. No controller required to make it work.
