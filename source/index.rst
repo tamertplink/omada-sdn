@@ -1,10 +1,10 @@
-.. Omada SDN documentation master file, created by
-   sphinx-quickstart on Fri Jan 29 09:29:54 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 TP-Link Omada SDN
 =================
+
+.. warning::
+
+   This is a work in progress document.
+   Please reference to the tp-link.com for official release documents.
 
 TP-Link Omada SDN is an easy-to-use business class corporate networking system. Empowered by the Omada controller and TP-link cloud services, a business networking system can be built with less effort. A general electrician can help with physical installation without the knowledge of your network design. And, you can deploy, set up and manage multiple networks in multiple locations in your place. The Omada SDN solution including hardware, software, and cloud-based controller, Omada EAP wireless access points, JetStream managed business switches, and SafeStream business routers.
 
@@ -25,4 +25,7 @@ Topics
    :maxdepth: 2
 
    introduction
+   installation
    howto/controller_ubuntu
+
+   compatibility

@@ -32,16 +32,9 @@ MongoDB 3.0.15 ~ 3.6.18
 
 Follow the instructions to install MongoDB 3.4 or visit this `link`_. to view more options.
 
-.. _link: https://docs.mongodb.com/v3.4/tutorial/install-mongodb-on-ubuntu/ to view more options.
+.. _link: https://docs.mongodb.com/v3.4/tutorial/install-mongodb-on-ubuntu/
 
 
 ::
 
     sudo apt-get install openjdk-8-jre-headless
-
-next
-
-.. code-block:: rst
-
-    This is a paragraph split across
-    two lines.
