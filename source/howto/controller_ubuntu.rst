@@ -9,6 +9,7 @@ You can install the Omada Software Controller on Ubuntu or Debian 64-bit distrib
 
 Components
 ----------
+
 - Ubuntu version 14.04 or 16.04 64-bit
 - JRE version 8
 - MongoDB version 3.0.15 ~ 3.6.18
@@ -18,15 +19,29 @@ Components
 
 Java Runtime Environment
 ------------------------
+
 Run this command to install the JRE from your Ubuntu repository.
 
-Paragraph::
+.. code-block:: bash
+
     sudo apt-get install openjdk-8-jre-headless
 
 
 MongoDB 3.0.15 ~ 3.6.18
 ------------------------
-Follow the instructions to install MongoDB 3.4 or visit this `Link link <https://docs.mongodb.com/v3.4/tutorial/install-mongodb-on-ubuntu/>` to view more options.
+
+Follow the instructions to install MongoDB 3.4 or visit this `link`_. to view more options.
+
+.. _link: https://docs.mongodb.com/v3.4/tutorial/install-mongodb-on-ubuntu/ to view more options.
+
 
 ::
+
     sudo apt-get install openjdk-8-jre-headless
+
+next
+
+.. code-block:: rst
+
+    This is a paragraph split across
+    two lines.
