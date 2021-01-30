@@ -20,12 +20,13 @@ Java Runtime Environment
 ------------------------
 Run this command to install the JRE from your Ubuntu repository.
 
-.. code-block:: python
+Paragraph::
     sudo apt-get install openjdk-8-jre-headless
+
 
 MongoDB 3.0.15 ~ 3.6.18
 ------------------------
 Follow the instructions to install MongoDB 3.4 or visit this `Link link <https://docs.mongodb.com/v3.4/tutorial/install-mongodb-on-ubuntu/>` to view more options.
 
-.. code-block:: python
+::
     sudo apt-get install openjdk-8-jre-headless
