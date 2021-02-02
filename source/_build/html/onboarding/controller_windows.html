@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omada Controller Installation on Windows System &#8212; Omada SDN 0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="../_static/tplink.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Install Omada Controller on Ubuntu or Debian" href="controller_ubuntu.html" />
+    <link rel="prev" title="Installation" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="controller_ubuntu.html" title="Install Omada Controller on Ubuntu or Debian"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Installation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Installation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Omada Controller Installation on Windows System</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="omada-controller-installation-on-windows-system">
+<h1>Omada Controller Installation on Windows System<a class="headerlink" href="#omada-controller-installation-on-windows-system" title="Permalink to this headline">¶</a></h1>
+<p>You can install the Omada Software Controller on Ubuntu or Debian 64-bit distribution. The Omada controller is operating on JVM with MongoDB database.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This installation guide is based on Omada controller version 4.2.8. For installation guide on previous versions, please visit the software download site to download the user’s guide on your version. <a class="reference external" href="https://www.tp-link.com/us/support/download/omada-software-controller/">https://www.tp-link.com/us/support/download/omada-software-controller/</a></p>
+</div>
+<div class="section" id="components">
+<h2>Components<a class="headerlink" href="#components" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Ubuntu version 14.04 or 16.04 64-bit</p></li>
+<li><p>JRE version 8</p></li>
+<li><p>MongoDB version 3.0.15 ~ 3.6.18</p></li>
+<li><p>jsvc</p></li>
+<li><p>curl</p></li>
+<li><p>Omada Software Controller</p></li>
+</ul>
+</div>
+<div class="section" id="java-runtime-environment">
+<h2>Java Runtime Environment<a class="headerlink" href="#java-runtime-environment" title="Permalink to this headline">¶</a></h2>
+<p>Run this command to install the JRE from your Ubuntu repository.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apt-get install openjdk-8-jre-headless
+</pre></div>
+</div>
+</div>
+<div class="section" id="mongodb-3-0-15-3-6-18">
+<h2>MongoDB 3.0.15 ~ 3.6.18<a class="headerlink" href="#mongodb-3-0-15-3-6-18" title="Permalink to this headline">¶</a></h2>
+<p>Follow the instructions to install MongoDB 3.4 or visit this <a class="reference external" href="https://docs.mongodb.com/v3.4/tutorial/install-mongodb-on-ubuntu/">link</a>. to view more options.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">openjdk</span><span class="o">-</span><span class="mi">8</span><span class="o">-</span><span class="n">jre</span><span class="o">-</span><span class="n">headless</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Omada Controller Installation on Windows System</a><ul>
+<li><a class="reference internal" href="#components">Components</a></li>
+<li><a class="reference internal" href="#java-runtime-environment">Java Runtime Environment</a></li>
+<li><a class="reference internal" href="#mongodb-3-0-15-3-6-18">MongoDB 3.0.15 ~ 3.6.18</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Installation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="controller_ubuntu.html"
+                        title="next chapter">Install Omada Controller on Ubuntu or Debian</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/onboarding/controller_windows.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="controller_ubuntu.html" title="Install Omada Controller on Ubuntu or Debian"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Installation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Installation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Omada Controller Installation on Windows System</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, TP-Link USA.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
