@@ -2,7 +2,9 @@
 Installation
 ============
 
-The Omada SDN solution includes the hardware, software, and cloud-based controller, Omada EAP wireless access points, JetStream managed business switches, and SafeStream business routers.
+The most easy way to set up an Omada SDN network is to have an Omada controller first. You can download and install a `software controller on Windows`_ for evaluation or set up.
+
+.. _software controller on Windows: https://static.tp-link.com/2020/202012/20201211/Omada_Controller_V4.2.8_Windows.zip
 
 Controllers
 -----------
@@ -16,3 +18,10 @@ Standalone Mode
 ---------------
 
 All the Omada SDN devices can work in standalone mode. No controller required to make it work.
+
+.. toctree::
+   :maxdepth: 1
+   
+   controller_windows
+   controller_ubuntu
+
