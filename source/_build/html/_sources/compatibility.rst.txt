@@ -6,24 +6,28 @@ The Omada SDN controller is the alias of the Omada version 4 controller. The pre
 
 .. seealso::
 
-    The guide to check the product compatibility https://www.tp-link.com/us/omada_compatibility_list/
+    The list below is for your quick reference. There is a product compatibility check up guide here: https://www.tp-link.com/us/omada_compatibility_list/
 
 Controller version 4 Omada SDN
 ------------------------------
 
-* Wireless Access Point
+* Wireless Access Point (WiFi 6)
     
-    * EAP660 HD AX3600 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
-    * EAP620 HD AX1800 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+    * EAP660 HD(US)V1.0 AX3600 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+    * EAP620 HD(US)V1.0 AX1800 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
 
-    * EAP265 HD AC1750 dual-band Wi-Fi 5 (802.11ac wave 2) high density wireless access point (620 clients)
-    * EAP245 AC1750 dual-band Wi-Fi 5 (802.11ac wave 2) wireless access point
-    * EAP225 AC1350 dual-band Wi-Fi 5 (802.11ac wave 2) wireless access point
-    * EAP225-Outdoor AC1200 dual-band Wi-Fi 5 (802.11ac wave 2) wireless IP65 outdoor access point
-    * EAP225-Wall AC1200 dual-band Wi-Fi 5 (802.11ac wave 2) wireless in-wall access point
+* Wireless Access Point (802.11ac wave 2)
+ 
+    * EAP265 HD(US)V1.0 AC1750 dual-band Wi-Fi 5 (802.11ac wave 2) high density wireless access point (620 clients)
+    * EAP245(US)V3.2 AC1750 dual-band Wi-Fi 5 (802.11ac wave 2) wireless access point
+    * EAP225(US)V3.2 AC1350 dual-band Wi-Fi 5 (802.11ac wave 2) wireless access point
+    * EAP225-Outdoor(US)V1.2 AC1200 dual-band Wi-Fi 5 (802.11ac wave 2) wireless IP65 outdoor access point
+    * EAP225-Wall(US)V2.2 AC1200 dual-band Wi-Fi 5 (802.11ac wave 2) wireless in-wall access point
 
-    * EAP115 N300 2.4GHz wireless access point
-    * EAP110-outdoor N300 2.4GHz IP65 outdoor wireless access point
+* Wireless Access Point (802.11n for IOT)
+ 
+    * EAP115(US)V4.2 N300 2.4GHz wireless access point
+    * EAP110-outdoor(US)V3.2 N300 2.4GHz IP65 outdoor wireless access point
 
 * JetStream Managed Switch
     
@@ -54,11 +58,14 @@ Controller version 3 Omada Wireless
 
 * Wireless access point
     
-    * EAP245 AC1750 dual-band Wi-Fi 5 (802.11ac wave 2) wireless access point
-    * EAP225 AC1350 dual-band Wi-Fi 5 (802.11ac wave 2) wireless access point
-    * EAP225-Outdoor AC1200 dual-band Wi-Fi 5 (802.11ac wave 2) wireless IP65 outdoor access point
-    * EAP225-Wall AC1200 dual-band Wi-Fi 5 (802.11ac wave 2) wireless in-wall access point
+    * EAP330 AC1900 dual-band 802.11ac wireless access point
+    * EAP320 AC1200 dual-band 802.11ac wireless access point
+    * EAP245 AC1750 dual-band 802.11ac wave 2 wireless access point
+    * EAP225 AC1350 dual-band 802.11ac wave 2 wireless access point
+    * EAP225-Outdoor AC1200 dual-band 802.11ac wave 2 wireless IP65 outdoor access point
+    * EAP225-Wall AC1200 dual-band 802.11ac wave 2 wireless in-wall access point
 
+    * EAP110 N300 2.4GHz wireless access point
     * EAP115 N300 2.4GHz wireless access point
     * EAP110-outdoor N300 2.4GHz IP65 outdoor wireless access point
 

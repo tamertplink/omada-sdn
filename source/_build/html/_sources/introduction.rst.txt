@@ -2,7 +2,7 @@
 Introduction
 ============
 
-TP-Link Omada SDN is an easy-to-use business class corporate network system. The solution includes the controllers, wireless access points, managed switches, and business routers.
+TP-Link Omada SDN system is an easy-to-use business class corporate network system. It has a controller for discover, set up, and manage the Omada SDN devices. With the TP-Link Omada cloud directory service, and Omada mobile app, you can get instant notifications from your system and make immediate responses. Anytime and anywhere. The solution includes the network controller, wireless access point, network switche, and load balance VPN router.
 
 What is SDN?
 ------------
@@ -35,9 +35,12 @@ Load Balance VPN Router
 
 The SafeStream Load Balance VPN routers were designed for small offices as well as the telecommuters. The router can connect up to 4 ISP for voice and data, corporate and private line. You can aggregate bandwidth with the multiple services, or set the rule to direct the certain traffic going to the dedicated line. Easy setup IPSEC VPN and OpenVPN for company connection and personal use. Attack detection and stateful firewall improves your network security. Portal access to personalize your network access. All the tools that everything you need to make the fast an secured connections are set inside the box.
 
-Flexible Deployments
---------------------
+Your Deployment, Your Choice
+----------------------------
 
-**Don’t like the cloud connection or don’t want a controller agent? No problem!**
+**Don’t want to set up a controller?**
+**Don’t like the cloud connection?**
 
-All Omada SDN solution devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your favorites, you can choose the way you want your network to be. 
+**No problem!**
+
+All Omada SDN solution devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your preferences, you can choose the way you want your network behave. 

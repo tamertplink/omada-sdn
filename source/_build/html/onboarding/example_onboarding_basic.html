@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example: Set up a basic network &#8212; Omada SDN 0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="../_static/tplink.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Example: Set up a basic network</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="example-set-up-a-basic-network">
+<h1>Example: Set up a basic network<a class="headerlink" href="#example-set-up-a-basic-network" title="Permalink to this headline">¶</a></h1>
+<p>This example demonstrates the most easy way to set up a basic network. TP-Link Omada cloud service was not involved in this set up.</p>
+<div class="section" id="bill-of-material">
+<h2>Bill of material<a class="headerlink" href="#bill-of-material" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>ER605 (TL-R605) router</p></li>
+<li><p>TL-SG2008P switch, 8-port gigabit switch with 4 port POE</p></li>
+<li><p>EAP225</p></li>
+<li><p>OC200</p></li>
+</ul>
+<div class="section" id="topology">
+<h3>Topology<a class="headerlink" href="#topology" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/topology_basic.png" src="../_images/topology_basic.png" />
+<p>Connecting your devices with above topology</p>
+<ul class="simple">
+<li><p>Connect the LAN port of your ISP gateway to the ER605 WAN port</p></li>
+<li><p>Connect the ER605 LAN port to one of the TL-SG2008P non-PoE port (port 5 to port 8)</p></li>
+<li><p>Connect the OC200 LAN port to one of the TL-SG2008P PoE port (port 1 to port 4)</p></li>
+<li><p>Connect the EAP225 LAN port to one of the TL-SG2008P PoE port (port 1 to port 4)</p></li>
+<li><p>Make sure all the devices have the latest firmware and with the factory default setting</p></li>
+</ul>
+<p>Power them up and wait for the system checking and booting. The sequency is a little bit longer than the consumer products. Wait for 5 minutes and check the status light. If the OC200 <strong>Cloud</strong> LED is blinking. It means the OC200 has the Internet access everything is ready. If not, double check the wiring and reset the devices again to make sure they are with factory default settings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The ER605/ER7206 has default network set to 192.168.0.1. If your ISP gateway was set to the same local subnet, you can remove the ER605/ER7206 from the topology for now. We can add it back later.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Example: Set up a basic network</a><ul>
+<li><a class="reference internal" href="#bill-of-material">Bill of material</a><ul>
+<li><a class="reference internal" href="#topology">Topology</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/onboarding/example_onboarding_basic.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Example: Set up a basic network</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright .
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
