@@ -22,6 +22,7 @@ All the Omada SDN devices can work in standalone mode. No controller required to
 .. toctree::
    :maxdepth: 1
    
+   eap_onboarding
    controller_windows
    controller_ubuntu
 
