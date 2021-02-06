@@ -2,7 +2,6 @@
 Omada Controller Installation on Windows System
 ===============================================
 
-
 .. note::
     This installation guide is based on Omada controller version 4.2.8. For installation guide on previous versions, please visit the software download site to download the user's guide on your version. https://www.tp-link.com/us/support/download/omada-software-controller/
 

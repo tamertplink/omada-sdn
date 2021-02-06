@@ -2,15 +2,16 @@
 Example: Set up a basic network
 ===============================
 
-This example demonstrates the most easy way to set up a basic network. TP-Link Omada cloud service was not involved in this set up.
+This example demonstrates the most easy way to set up a basic network. You can of course mix and match the different combinations of the devices to fit your need. Here we just choose one typical network and a smooth way of installation. You can read other sections of this document for more detail.
 
 Bill of material
--------------------------
+----------------
 
 * ER605 (TL-R605) router
 * TL-SG2008P switch, 8-port gigabit switch with 4 port POE
 * EAP225
 * OC200
+* Android Phone or iPhone
 
 Topology
 ~~~~~~~~
@@ -30,4 +31,11 @@ Power them up and wait for the system checking and booting. The sequency is a li
 .. note::
     The ER605/ER7206 has default network set to 192.168.0.1. If your ISP gateway was set to the same local subnet, you can remove the ER605/ER7206 from the topology for now. We can add it back later.
 
+Omada App and Cloud Account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Download the Omada app for `Apple`_ or `Android`_.
+
+.. _Apple: https://apps.apple.com/app/id1327615864
+.. _Android: https://play.google.com/store/apps/details?id=com.tplink.omada
 

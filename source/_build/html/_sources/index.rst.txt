@@ -3,8 +3,7 @@ TP-Link Omada SDN Cookbook
 
 .. warning::
 
-   This is a community host work in progress document.
-   Please go to tp-link.com for product information and official guides.
+   This is a community driven, work in progress document. For official product information and guides, please visit http://www.tplink.com/us/omada-sdn/ .
 
 TP-Link Omada SDN is an easy-to-use business class corporate network system. Empowered by the Omada controller and TP-link cloud services, a business network system can be built with less effort. With the zero touch provisioning, a contractor can do the physical installation without the knowledge of your network design. Once the device is installed and online, you can discover, and set up in your office remotely. A single controller can monitor devices across multiple networks in different locations. The Omada SDN solution including three flavors of controller based on the capacity of the managed devices, hardware, software, and cloud-based controllers. The controlled devices including Omada EAP wireless access points, JetStream managed business switches, and SafeStream business routers.
 
@@ -24,6 +23,6 @@ Index
 .. toctree::
    :maxdepth: 2
 
-   introduction
+   introduction/index
    onboarding/index
    compatibility

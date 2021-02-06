@@ -44,3 +44,10 @@ Your Deployment, Your Choice
 **No problem!**
 
 All Omada SDN solution devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your preferences, you can choose the way you want your network behave. 
+
+.. toctree::
+   :maxdepth: 1
+   
+   introduction_eap
+   introduction_switch
+   introduction_router

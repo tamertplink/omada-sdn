@@ -1,0 +1,21 @@
+
+TP-Link Omada App for iOS 
+=========================
+
+Download the app 
+----------------
+
+To download the TP-Link Omada app on your iPhone, go to your app stor searching for **TP-Link Omada** app or visit this `link`_  
+Download the Omada app for `Apple`_ or `Android`_.
+
+.. _link: https://apps.apple.com/app/id1327615864
+
+.. image:: /images/OmadaApp_Download_Open.png
+
+Agree and permit the Omada app 
+------------------------------
+
+.. image:: /images/01_02app_install.png
+
+Allow the Omada app notify you for critical network event.
+
