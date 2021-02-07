@@ -4,11 +4,18 @@ Set up EAP Wireless Access Point in Standalone Mode
 Set up your EAP with the mobile app
 -----------------------------------
 
+* Visit `this page`_ for how to install Omada app on your iPhone.
+
+.. _this page: app_ios.html
+
 You can set up the EAPs using the Omada app for `Apple`_ or `Android`_ with this `video`_.
+
 
 .. _Apple: https://apps.apple.com/app/id1327615864
 .. _Android: https://play.google.com/store/apps/details?id=com.tplink.omada
 .. _video: https://youtu.be/m_i8qROEwuk
+
+
 
 The Omada app is a very useful tool to set up and manage your Omada devices. You can use it to discover and install the EAP now. Later on, you can use the same app to install the controller, switch, and router. You can also monitor your network on the go.
 

@@ -1,67 +1,26 @@
-
-Omada Enterprise Access Point, EAP
-==================================
-
-The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 6 access points. The EAP2xx are 802.11ac wave 2 (WiFi 5) access points and the The EAP1xx are classic 802.11n access points. The EAP3xx series has been end of life since 2018.
-
-Comparison with use cases
--------------------------
-
-High density series
-~~~~~~~~~~~~~~~~~~~
-
-+------------+-----------+-----------+-----------+
-| Model      | EAP660 HD | EAP620 HD | EAP265 HD |
-+============+===========+===========+===========+
-| Class      | WiFi 6    | WiFi 6    | WiFi 5    |
-+------------+-----------+-----------+-----------+
-| Speed      | AX3600    | AX1800    | AC1750    |
-+------------+-----------+-----------+-----------+
-| Max clients| 1024      | 1024      | 620       |
-+------------+-----------+-----------+-----------+
-| Ethernet   | 2.5G      | Gigabit   | Gigabit   |
-+------------+-----------+-----------+-----------+
-
-Ceiling mount EAPs
-~~~~~~~~~~~~~~~~~~
-
-+------------+-----------+-----------+-----------+
-| Model      | EAP245    | EAP225    | EAP115    |
-+============+===========+===========+===========+
-| Class      | 802.11ac  | 802.11ac  | 802.11n   |
-+------------+-----------+-----------+-----------+
-| Speed      | AC1750    | AC1350    | N300      |
-+------------+-----------+-----------+-----------+
-
-Other EAPs
-~~~~~~~~~~
-
-+------------+----------------+----------------+-------------+--------------+
-| Model      | EAP225-Outdoor | EAP110-Outdoor | EAP235-Wall | EAP225-Wall  |
-+============+================+================+=============+==============+
-| Class      | 802.11ac       | 802.11n        | 802.11ac    | 802.11ac     |
-+------------+----------------+----------------+-------------+--------------+
-| Speed      | AC1200         | N300           | AC1200      | AC120        |
-+------------+----------------+----------------+-------------+--------------+
-| Ethernet   | Gigabit        | 10/100         | Gigabit     | 10/100       |
-+------------+----------------+----------------+-------------+--------------+
-
-Standalone mode
----------------
+Set up EAP Wireless Access Point in Standalone Mode
+===================================================
 
 Set up your EAP with the mobile app
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
+
+* Visit `this page`_ for how to install Omada app on your iPhone.
+
+.. _this page: app_ios.html
 
 You can set up the EAPs using the Omada app for `Apple`_ or `Android`_ with this `video`_.
+
 
 .. _Apple: https://apps.apple.com/app/id1327615864
 .. _Android: https://play.google.com/store/apps/details?id=com.tplink.omada
 .. _video: https://youtu.be/m_i8qROEwuk
 
+
+
 The Omada app is a very useful tool to set up and manage your Omada devices. You can use it to discover and install the EAP now. Later on, you can use the same app to install the controller, switch, and router. You can also monitor your network on the go.
 
 Set up your EAP with the desktop tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 If you like the classic way to set up your EAP, you can connect your computer wireless adaptor to the EAP and set it up using web browser.
 

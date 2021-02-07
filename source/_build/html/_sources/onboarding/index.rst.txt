@@ -23,6 +23,7 @@ All the Omada SDN devices can work in standalone mode. No controller required. J
    :maxdepth: 1
    
    basic_system_onboarding
+   app_ios
    controller_hardware
    controller_windows
    controller_ubuntu
