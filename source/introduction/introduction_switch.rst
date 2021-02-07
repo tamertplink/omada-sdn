@@ -1,9 +1,9 @@
 JetStream Managed Switch
 ========================
 
-All 2021 JetStream managed switches are compatible to Omada SDN and can be controlled by the Omada SDN controller. The new JetStream managed switches can still work on standalone mode as usual, but just enhanced by adding up the SDN capabilities. There are two sub class of the managed switches, smart managed switch, model numbered TL-Sx2xx and the fully managed TL-Sx3xx models. The major differences between smart managed switches and fully managed switches are the features in standalone mode. In controller mode, the features on the switches are the same[1]. 
+All 2021 JetStream managed switches are compatible to Omada SDN and can be controlled by the Omada SDN controller. The new JetStream managed switches can still work on standalone mode as usual, but just enhanced by adding up the SDN capabilities. There are two sub class of the managed switches, smart managed switch, model numbered TL-Sx2xx and the fully managed TL-Sx3xx models. The major differences between smart managed switches and fully managed switches are the features in standalone mode. In controller mode, the features on the switches are the same. 
 
-.. [1] The JetStream switch features may be different with the future Omada controller. With the version 4.2.8, features in controller model are all the same.
+.. note:: The JetStream switch features may be different with the future Omada controller. With the version 4.2.8, features in controller model are all the same.
 
 
 10/100 switch

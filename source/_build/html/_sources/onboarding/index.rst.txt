@@ -19,6 +19,8 @@ Standalone Mode
 
 All the Omada SDN devices can work in standalone mode. No controller required. Just power it on and set up your device through the graphical web interface and it will work. Most of the devices come with the telnet, ssh and SNMP features for CLI control. Please reference the user's manual of the respective product for details.
 
+Installation Guides
+-------------------
 .. toctree::
    :maxdepth: 1
    

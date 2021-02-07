@@ -24,6 +24,9 @@ Allow the Omada app notify you for critical network event. Review and agree the 
 
 Allow the Omada app uses your local network so it can discover and set up your Omada controller and devices.
 
+Log in to the Omada app
+------------------------------
+
 .. image:: /images/07-09_app_install_l.png
     :width: 70%
 
