@@ -1,6 +1,6 @@
 
-Example: Set up a basic network
-===============================
+Use Case: Set up a basic network
+================================
 
 This example demonstrates the most easy way to set up a basic network. You can of course mix and match the different combinations of the devices to fit your need. Here we just choose one typical network and a smooth way of installation. You can read other sections of this document for more detail.
 

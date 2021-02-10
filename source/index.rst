@@ -25,4 +25,5 @@ Index
 
    introduction/index
    onboarding/index
+   use_case/index
    compatibility

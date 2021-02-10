@@ -34,7 +34,7 @@ An Example Basic Network Setup
 
 You can follow through this set up example to experience the complete system setup from the beginning to the end. `An Example Basic Network Setup`_
 
-.. _An Example Basic Network Setup: basic_system_onboarding.html
+.. _An Example Basic Network Setup: ../use_case/use_case_basic_system.html
 
 Installation Guides
 -------------------
