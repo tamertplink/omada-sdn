@@ -83,23 +83,20 @@ All 2021 JetStream managed switches are compatible to Omada SDN and can be contr
 .. note:: The JetStream switch features may be different with the future Omada controller. With the version 4.2.8, features in controller model are all the same.
 
 
-10/100 switch
-~~~~~~~~~~~~~
+10/100 Managed Switch
+~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SL2428P(UN)V4.2 JetStream 24-Port 10/100Mbps + 4-Port Gigabit Smart Switch with 24-Port PoE+
 
-Gigabit switches
-~~~~~~~~~~~~~~~~
-
-Non-PoE Switches
-^^^^^^^^^^^^^^^^
+Non-PoE Gigabit Switches
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG2008 JetStream 8-Port Gigabit Smart Switch
 * TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
 * TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch with 24-Port PoE+
 
-PoE Switches
-^^^^^^^^^^^^
+PoE Gigabit Switches
+~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG2008P JetStream 8-Port Gigabit Smart Switch with 4-Port PoE+
 * TL-SG2010P JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP
@@ -144,15 +141,14 @@ There are many features the SafeStream routers can do in a small office environm
 
 * **IPSEC, L2TP, and OpenVPN** The IPSEC is the most popular VPN connections in use in the industry. The SafeStream IPSEC VPN connection can act as a server connecting to the clients remotely at home or at the coffee shop. L2TP (over IPSEC) provides an easier point to point connection through firewalls. OpenVPN is a proprietary, but very popular, VPN connection. You can almost set the end point anywhere and the OpenVPN can connect you through NAT and firewalls with no effort.
 
-.. note::
-    The OpenVPN feature is only available when the SafeStream router is in the controller model
-
 * **Load Balance** The SafeStream SMB router can connect up to 4 ISPs. Whether you want to make the multiple connection to balance the traffic loads or simply make a connection as a fallback line, the SafeStream router can do the job for you.
 
 * **Digital Phone System Friendly** The SafeStream works with different phone systems. You can enable/disable the SIP ALG. Set the priority route, using ACL to allow or block visitors 
 
+.. note::
+    The OpenVPN feature is only available when the SafeStream router is in the controller model
 
-Site-to-site vs. Client-to-site
+Site-to-Site vs. Client-to-Site
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The terms are self explained. The site-to-site VPN creates a secured tunnel between two sites. Computers on both sides don't have to aware the existence of the secured tunnel and can communicate to end points on both sites without effort. In Omada SDN, you can create a site-to-site VPN tunnel simply states which site you want to connect with and then the tunnel can be created.
