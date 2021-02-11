@@ -17,7 +17,7 @@ Omada switch
 Login to the web GUI and change the administrator credential. The same credential will be used in SSH connection as well. Navigate to the ``Security > SSH Config`` and check on the ``SSH enable``. Then, click ``Apply`` to enable the SSH. Remember to click |Save| to save the configuration.
 
 .. |Save| image:: /images/switch-save.png
-    :height: 10
+    :height: 16
 
 .. image:: /images/ssh-switch.png
 
@@ -44,10 +44,10 @@ To find out the IP address of the device, just navigate to Devices page.
 
 .. image:: /images/controller-devices.png
 
-The SSH credential is the device account. When you setup a new site, the controller will choose a random password for you. You can change the credential if you want. Go to the ``Settings > Site and scroll down to the ``Device Account`` section to get the user name and password. Click |reveal| to reveal the password.
+The SSH credential is the device account. When you setup a new site, the controller will choose a random password for you. You can change the credential if you want. Go to the ``Settings > Site`` and then scroll down to the ``Device Account`` section to get the user name and password. Click |reveal| to reveal the password.
 
 .. |reveal| image:: /images/password_reveal.png
-    :height: 14
+    :height: 16
 
 .. image:: /images/controller-device_account.png
 
