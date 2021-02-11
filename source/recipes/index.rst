@@ -1,6 +1,6 @@
 
-Index of Recipes
-=================
+Recipes
+=======
 
 .. toctree::
    :maxdepth: 1

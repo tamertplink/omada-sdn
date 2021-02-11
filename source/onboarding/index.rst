@@ -27,7 +27,7 @@ When you are done with the proof of the concept, you can prepare a dedicate serv
 | Model         | OC200 | OC300 | Software Controller | Cloud based controller |
 +===============+=======+=======+=====================+========================+
 | Max. Devices  | 100   | 500   | 1,500               | Subscription based     |
-+---------------+--------+------+---------------------+------------------------+
++---------------+-------+-------+---------------------+------------------------+
 
 An Example Basic Network Setup 
 ------------------------------

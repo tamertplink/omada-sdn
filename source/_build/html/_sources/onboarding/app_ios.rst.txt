@@ -1,6 +1,6 @@
 
-TP-Link Omada App for iOS 
-=========================
+Install Omada App on iPhone 
+===========================
 
 Download the app 
 ----------------
