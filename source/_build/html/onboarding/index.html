@@ -20,8 +20,8 @@
     <link rel="shortcut icon" href="../_static/tplink.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Example: Set up a basic network" href="basic_system_onboarding.html" />
-    <link rel="prev" title="SafeStream Load Balance VPN Router" href="../introduction/introduction_router.html" /> 
+    <link rel="next" title="TP-Link Omada App for iOS" href="app_ios.html" />
+    <link rel="prev" title="Introduction" href="../introduction/index.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
@@ -30,10 +30,10 @@
           <a href="../genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="basic_system_onboarding.html" title="Example: Set up a basic network"
+          <a href="app_ios.html" title="TP-Link Omada App for iOS"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="../introduction/introduction_router.html" title="SafeStream Load Balance VPN Router"
+          <a href="../introduction/index.html" title="Introduction"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.2 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Installation</a></li> 
@@ -47,21 +47,52 @@
             
   <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<p>The most easy way to set up an Omada SDN network is to have an Omada controller first. You can download and install a <a class="reference external" href="https://www.tp-link.com/us/support/download/omada-software-controller/#Controller_Software">software controller on Windows</a> for evaluation or set up.</p>
-<div class="section" id="controllers">
-<h2>Controllers<a class="headerlink" href="#controllers" title="Permalink to this headline">¶</a></h2>
-<p>There are three different flavors of controllers in Omada SDN. Hardware, software, and cloud based. All the network control logics on different controllers are the same and it is flexible to move the network settings from one controller to another. The basic network in Omada SDN netowrking is a <strong>site</strong>. A site is a logical network domain and usually is mapping to a physical network. For example a network in a retail store. You can set up a site and move it around on different controllers for flexibility.</p>
-<img alt="../_images/controller_compare.png" src="../_images/controller_compare.png" />
+<p>The Omada SDN was designed as a complete system with center control. In the real world installation, you may find the use case requires third party product integration. Omada SDN products are flexible to that request. You can set and use the device standalone or managed by a controller. When Omada SDN product works in standalone mode, it can be integrated into other software define networking system through traditional telnet, SNMP, or CLI over console port. You can also control the devices through CLI over SSH and controlled by the Ansible playbook.</p>
+<div class="section" id="cloud-or-no-cloud">
+<h2>Cloud or No Cloud<a class="headerlink" href="#cloud-or-no-cloud" title="Permalink to this headline">¶</a></h2>
+<p>It is your decision to use TP-Link cloud services or not. The <strong>TP-Link cloud directory service</strong> provides an easy way to discover and connect to your device and get notification from the system. TP-Link cloud directory service shares the account credential over different systems. If you already in use one of the TP-Link product, the Kasa, Deco, Tapo, or Vigi, you probably have the service account already. If you want to total control your Omada SDN network, you can still do it with some manual set ups. the cloud directory service is not required to build the network. However, it is required if you want to receive notification on your mobile phone. This service is free.</p>
+<p><strong>TP-Link Omada Cloud Based Controller</strong> is a Omada network controller maintained by TP-Link. It is a subscription based service with annual fee. Check the <a class="reference external" href="https://www.tp-link.com/us/business-networking/omada-sdn-controller/omada-cloud-based-controller/">product page</a> for price details. The cloud based controller has all the features comes with the software controller and the hardware controller. The extra benefit is that it is backed by TP-Link AI server for extra zero touch provisioning and automatic wireless power and channel adjustment features.</p>
 </div>
-<div class="section" id="standalone-mode">
-<h2>Standalone Mode<a class="headerlink" href="#standalone-mode" title="Permalink to this headline">¶</a></h2>
-<p>All the Omada SDN devices can work in standalone mode. No controller required. Just power it on and set up your device through the graphical web interface and it will work. Most of the devices come with the telnet, ssh and SNMP features for CLI control. Please reference the user’s manual of the respective product for details.</p>
+<div class="section" id="choose-your-controller">
+<h2>Choose your controller<a class="headerlink" href="#choose-your-controller" title="Permalink to this headline">¶</a></h2>
+<p>There are three different flavors of controllers in Omada SDN. Hardware, software, and cloud based controller. All the controllers designed with the same network logic and it is flexible to move the network settings from one controller to another. If Omada SDN is new to you and you want just to experience it, you can simply download a free Omada software controller to have an initial try.</p>
+<p>The basic network in Omada SDN network is a <strong>site</strong>. A site is a logical network domain and usually is mapping to a physical network. For example a network in a retail store. You can set up a site and move it around on different controllers for flexibility.</p>
+<p>When you are done with the proof of the concept, you can prepare a dedicate server for the software controller. Or, you can simply buy a preinstalled controller hardware. Depends on the number of devices you are going to manage, you can choose different controllers. As always, you can move the <strong>site</strong> from one controller to another to scale up or scale down your management.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 10%" />
+<col style="width: 0%" />
+<col style="width: 8%" />
+<col style="width: 29%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Model</p></th>
+<th class="head"><p>OC200</p></th>
+<th class="head" colspan="2"><p>OC300</p></th>
+<th class="head"><p>Software Controller</p></th>
+<th class="head"><p>Cloud based controller</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Max. Devices</p></td>
+<td colspan="3"><p>100   | 500</p></td>
+<td><p>1,500</p></td>
+<td><p>Subscription based</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="an-example-basic-network-setup">
+<h2>An Example Basic Network Setup<a class="headerlink" href="#an-example-basic-network-setup" title="Permalink to this headline">¶</a></h2>
+<p>You can follow through this set up example to experience the complete system setup from the beginning to the end. <a class="reference external" href="../recipes/recipe_basic_system.html">An Example Basic Network Setup</a></p>
 </div>
 <div class="section" id="installation-guides">
 <h2>Installation Guides<a class="headerlink" href="#installation-guides" title="Permalink to this headline">¶</a></h2>
+<p>Other step by step set up guides are listed here:</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="basic_system_onboarding.html">Example: Set up a basic network</a></li>
 <li class="toctree-l1"><a class="reference internal" href="app_ios.html">TP-Link Omada App for iOS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="controller_hardware.html">Omada Hardware Controller Set Up</a></li>
 <li class="toctree-l1"><a class="reference internal" href="controller_windows.html">Omada Controller Installation on Windows System</a></li>
@@ -85,19 +116,20 @@
   <h3><a href="../index.html">Table of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Installation</a><ul>
-<li><a class="reference internal" href="#controllers">Controllers</a></li>
-<li><a class="reference internal" href="#standalone-mode">Standalone Mode</a></li>
+<li><a class="reference internal" href="#cloud-or-no-cloud">Cloud or No Cloud</a></li>
+<li><a class="reference internal" href="#choose-your-controller">Choose your controller</a></li>
+<li><a class="reference internal" href="#an-example-basic-network-setup">An Example Basic Network Setup</a></li>
 <li><a class="reference internal" href="#installation-guides">Installation Guides</a></li>
 </ul>
 </li>
 </ul>
 
   <h4>Previous topic</h4>
-  <p class="topless"><a href="../introduction/introduction_router.html"
-                        title="previous chapter">SafeStream Load Balance VPN Router</a></p>
+  <p class="topless"><a href="../introduction/index.html"
+                        title="previous chapter">Introduction</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="basic_system_onboarding.html"
-                        title="next chapter">Example: Set up a basic network</a></p>
+  <p class="topless"><a href="app_ios.html"
+                        title="next chapter">TP-Link Omada App for iOS</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -126,10 +158,10 @@
           <a href="../genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="basic_system_onboarding.html" title="Example: Set up a basic network"
+          <a href="app_ios.html" title="TP-Link Omada App for iOS"
              >next</a> |</li>
         <li class="right" >
-          <a href="../introduction/introduction_router.html" title="SafeStream Load Balance VPN Router"
+          <a href="../introduction/index.html" title="Introduction"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.2 documentation</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Installation</a></li> 

@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSH control and monitoring &#8212; Omada SDN 0.2 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    
+    <link rel="shortcut icon" href="../_static/tplink.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SSH control and monitoring</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ssh-control-and-monitoring">
+<h1>SSH control and monitoring<a class="headerlink" href="#ssh-control-and-monitoring" title="Permalink to this headline">¶</a></h1>
+<p>You can control and monitor the Omada SDN devices when it is in standalone mode. When the device is adopted and controlled by the Omada SDN controller, the SSH connection is still available, but only for monitoring.</p>
+<p>The SSH on Omada devices is disabled by default. You can setup the administration credential directly through the web GUI or through the <strong>site</strong> settings on the controller.</p>
+</div>
+<div class="section" id="enable-ssh-connection-in-standalone-mode">
+<h1>Enable SSH connection in standalone mode<a class="headerlink" href="#enable-ssh-connection-in-standalone-mode" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The default IP of the Omada router is 192.168.0.1, the switch and EAP devices acquiring dynamic IP through DHCP. When there is no DHCP server on the network, the switch fall back IP is 192.168.0.1 and the EAP fall back IP is 192.168.0.254. The default user name is <code class="docutils literal notranslate"><span class="pre">admin</span></code> with default password <code class="docutils literal notranslate"><span class="pre">admin</span></code>.</p>
+</div>
+<div class="section" id="omada-switch">
+<h2>Omada switch<a class="headerlink" href="#omada-switch" title="Permalink to this headline">¶</a></h2>
+<p>Login to the web GUI and change the administrator credential. The same credential will be used in SSH connection as well. Navigate to the <code class="docutils literal notranslate"><span class="pre">Security</span> <span class="pre">&gt;</span> <span class="pre">SSH</span> <span class="pre">Config</span></code> and check on the <code class="docutils literal notranslate"><span class="pre">SSH</span> <span class="pre">enable</span></code>. Then, click <code class="docutils literal notranslate"><span class="pre">Apply</span></code> to enable the SSH. Remember to click <a class="reference internal" href="../_images/switch-save.png"><img alt="Save" src="../_images/switch-save.png" style="height: 10px;" /></a> to save the configuration.</p>
+<img alt="../_images/ssh-switch.png" src="../_images/ssh-switch.png" />
+</div>
+<div class="section" id="omada-eap">
+<h2>Omada EAP<a class="headerlink" href="#omada-eap" title="Permalink to this headline">¶</a></h2>
+<p>Login to the web GUI and change the administrator credential. The same credential will be used in SSH connection as well. Navigate to the <code class="docutils literal notranslate"><span class="pre">Management</span> <span class="pre">&gt;</span> <span class="pre">SSH</span></code> and check on the <code class="docutils literal notranslate"><span class="pre">SSH</span> <span class="pre">login</span> <span class="pre">enable</span></code>. Then, click <code class="docutils literal notranslate"><span class="pre">Save</span></code> to enable the SSH.</p>
+<img alt="../_images/ssh-eap.png" src="../_images/ssh-eap.png" />
+</div>
+<div class="section" id="omada-router">
+<h2>Omada Router<a class="headerlink" href="#omada-router" title="Permalink to this headline">¶</a></h2>
+<p>The ER7206 and ER605 do not support client SSH access.</p>
+</div>
+</div>
+<div class="section" id="enable-ssh-connection-in-controller-mode">
+<h1>Enable SSH connection in controller mode<a class="headerlink" href="#enable-ssh-connection-in-controller-mode" title="Permalink to this headline">¶</a></h1>
+<p>Navigate to the SSH settings by selecting your site and then <code class="docutils literal notranslate"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Services</span> <span class="pre">&gt;</span> <span class="pre">SSH</span></code> Enable the <code class="docutils literal notranslate"><span class="pre">SSH</span> <span class="pre">Login</span></code> Then click on <code class="docutils literal notranslate"><span class="pre">Apply</span></code> to enable the SSH. The SSH will be enabled in the whole site. Then, you can access the switches and EAPs through SSH.</p>
+<img alt="../_images/ssh-controller.png" src="../_images/ssh-controller.png" />
+<p>To find out the IP address of the device, just navigate to Devices page.</p>
+<img alt="../_images/controller-devices.png" src="../_images/controller-devices.png" />
+<p>The SSH credential is the device account. When you setup a new site, the controller will choose a random password for you. You can change the credential if you want. Go to the <code class="docutils literal notranslate"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Site</span> <span class="pre">and</span> <span class="pre">scroll</span> <span class="pre">down</span> <span class="pre">to</span> <span class="pre">the</span> <span class="pre">``Device</span> <span class="pre">Account</span></code> section to get the user name and password. Click <a class="reference internal" href="../_images/password_reveal.png"><img alt="reveal" src="../_images/password_reveal.png" style="height: 14px;" /></a> to reveal the password.</p>
+<img alt="../_images/controller-device_account.png" src="../_images/controller-device_account.png" />
+</div>
+<div class="section" id="ssh-from-macos">
+<h1>SSH from macOS<a class="headerlink" href="#ssh-from-macos" title="Permalink to this headline">¶</a></h1>
+<p>When you try to access the Omada switch directly you may see the error message:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>user@MacBook-Pro ~ % ssh admin@192.168.0.1
+Unable to negotiate with <span class="m">192</span>.168.0.1 port <span class="m">22</span>: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
+</pre></div>
+</div>
+<p>Which means your macOS is not supporting the key exchange method. You can follow the steps below to enable the SSH connection.</p>
+<ol class="arabic simple">
+<li><p>Open terminal</p></li>
+<li><p>Edit the SSH configuration file</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>user@MacBook-Pro ~ % sudo nano /etc/ssh/ssh_config
+Password:
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Enter the administrator password.</p></li>
+</ol>
+<img alt="../_images/ssh_config_file.png" src="../_images/ssh_config_file.png" />
+<ol class="arabic simple" start="4">
+<li><p>go to the bottom of the file and insert these lines:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+MACs hmac-md5,hmac-sha1,umac-64@openssh.com
+HostkeyAlgorithms ssh-dss,ssh-rsa
+KexAlgorithms +diffie-hellman-group1-sha1
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">Ctrl-X</span></code> and then <code class="docutils literal notranslate"><span class="pre">Y</span></code> to save the file</p></li>
+<li><p>Then try to access the switch again:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>user@MacBook-Pro ~ % ssh admin@192.168.0.1
+admin@192.168.0.1&#39;s password:
+
+TL-SG3210&gt;
+</pre></div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">SSH control and monitoring</a></li>
+<li><a class="reference internal" href="#enable-ssh-connection-in-standalone-mode">Enable SSH connection in standalone mode</a><ul>
+<li><a class="reference internal" href="#omada-switch">Omada switch</a></li>
+<li><a class="reference internal" href="#omada-eap">Omada EAP</a></li>
+<li><a class="reference internal" href="#omada-router">Omada Router</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#enable-ssh-connection-in-controller-mode">Enable SSH connection in controller mode</a></li>
+<li><a class="reference internal" href="#ssh-from-macos">SSH from macOS</a></li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/onboarding/ssh_macos.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Omada SDN 0.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">SSH control and monitoring</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright .
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
