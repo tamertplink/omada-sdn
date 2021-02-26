@@ -1,15 +1,15 @@
 
-Install Omada App on an iPhone 
-==============================
+Install Omada App on an Android Phone 
+=====================================
 
 Download the app 
 ----------------
 
-To download the TP-Link Omada app on your iPhone, go to your app store searching for **TP-Link Omada** app or visit this `link`_  
+To download the TP-Link Omada app on your Android Phone, go to your play store searching for **TP-Link Omada** app or visit this `link`_  
 
-.. _link: https://apps.apple.com/app/id1327615864
+.. _link: https://play.google.com/store/apps/details?id=com.tplink.omada&hl=en_US
 
-.. image:: /images/OmadaApp_Download_Open_l.png
+.. image:: /images/Omada_app_android_download_l.png
 
 Grant permit to the Omada app 
 -----------------------------
