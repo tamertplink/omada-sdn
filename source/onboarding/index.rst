@@ -32,9 +32,9 @@ When you are done with the proof of the concept, you can prepare a dedicate serv
 An Example Basic Network Setup 
 ------------------------------
 
-You can follow through this set up example to experience the complete system setup from the beginning to the end. `An Example Basic Network Setup`_
+You can follow through this set up example to experience the complete system setup from the beginning to the end. `An example setting up a basic network`_
 
-.. _An Example Basic Network Setup: ../recipes/recipe_basic_system.html
+.. _An example setting up a basic network: ../recipes/recipe_basic_system.html
 
 Installation Guides
 -------------------
