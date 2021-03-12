@@ -2,7 +2,7 @@
 Omada Hardware Controller Set Up
 ================================
 
-Set up the Omada SDN hardware is straight forward. 
+Set up the Omada SDN hardware is intuitive. 
 
 
 Here's the installation video with Omada mobile app.

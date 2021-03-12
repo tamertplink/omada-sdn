@@ -27,3 +27,4 @@ Index
    onboarding/index
    recipes/index
    compatibility
+   introduction/omada_switch_naming

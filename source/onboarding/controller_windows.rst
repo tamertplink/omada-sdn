@@ -35,11 +35,13 @@ Compatible Windows versions (64-bit versions of Windows on x86_64 architecture):
 Installation
 ------------
 
-Follow the instructions to install the Omada software controller. After the software installation, the controller will be launched and your default web browser will be launched to visit https://localhost:8043.
+Follow the instructions to install the Omada software controller. After the software installation, the controller will be launched and your default web browser will lead you to https://localhost:8043, the Omada controller default url.
 
 
 .. note::
     A "Your connection is not private" warning may pop up due to the private security was used by default on the controller. Please choose the advanced option and accept the way of access. You can setup your own SSL key to remove this warning.
 
 .. image:: /images/connection_is_not_private.png
+    :width: 50%
+    :align: center
 

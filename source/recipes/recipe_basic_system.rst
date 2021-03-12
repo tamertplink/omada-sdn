@@ -17,6 +17,8 @@ Topology
 ~~~~~~~~
 
 .. image:: /images/topology_basic.png
+    :width: 70%
+    :align: center
 
 Connecting your devices with above topology
 
@@ -26,7 +28,7 @@ Connecting your devices with above topology
 * Connect the EAP225 LAN port to one of the TL-SG2008P PoE port (port 1 to port 4)
 * Make sure all the devices have the latest firmware and with the factory default setting
 
-Power them up and wait for the system checking and booting. The sequency is a little bit longer than the consumer products. Wait for 5 minutes and check the status light. If the OC200 **Cloud** LED is blinking. It means the OC200 has the Internet access everything is ready. If not, double check the wiring and reset the devices again to make sure they are with factory default settings.
+Power them up and wait for the system checking and booting. The boot up time is a little bit longer than the SOHO product to bring up more features. Wait for 5 minutes and check the status lights. If the OC200 **Cloud** LED is blinking. It means the OC200 has the Internet access everything is ready. If not, double check the wiring and reset the devices again to make sure they are with factory default settings.
 
 .. note::
     The ER605/ER7206 has default network set to 192.168.0.1. If your ISP gateway was set to the same local subnet, you can remove the ER605/ER7206 from the topology for now. We can add it back later.

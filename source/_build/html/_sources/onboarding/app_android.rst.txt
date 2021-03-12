@@ -1,15 +1,15 @@
 
-Install Omada App on an iPhone 
-==============================
+Install Omada App on an Android Phone 
+=====================================
 
 Download the app 
 ----------------
 
-To download the TP-Link Omada app on your iPhone, go to your app store searching for **TP-Link Omada** app or visit this `link`_  
+To download the TP-Link Omada app on your Android Phone, go to your play store searching for **TP-Link Omada** app or visit this `link`_  
 
-.. _link: https://apps.apple.com/app/id1327615864
+.. _link: https://play.google.com/store/apps/details?id=com.tplink.omada&hl=en_US
 
-.. image:: /images/OmadaApp_Download_Open_l.png
+.. image:: /images/Omada_app_android_download_l.png
 
 Grant permit to the Omada app 
 -----------------------------
@@ -18,13 +18,11 @@ Allow the Omada app notify you for critical network event. Review and agree the 
 
 .. image:: /images/01_02app_install_l.png
     :width: 50%
-    :align: center
 
 Allow the Omada app uses your local network so it can discover and set up your Omada controller and devices.
 
 .. image:: /images/03-05_app_install_l.png
     :width: 70%
-    :align: center
 
 The installation is done.
 
@@ -35,6 +33,5 @@ Login with your TP-Link cloud account or apply for a new account if you want usi
 
 .. image:: /images/07-09_app_install_l.png
     :width: 70%
-    :align: center
 
 Now, you can set up, monitor, and control your Omada SDN devices. This mobile app work with SDN devices in controller mode as well as standalone mode.

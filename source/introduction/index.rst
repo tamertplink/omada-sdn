@@ -82,6 +82,7 @@ All 2021 JetStream managed switches are compatible to Omada SDN and can be contr
 
 .. note:: The JetStream switch features may be different with the future Omada controller. With the version 4.2.8, features in controller model are all the same.
 
+The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink ports. This is the perfect partner with the EAP660 HD for 2.5G Ethernet backhaul. No new wire is required, the traditional CAT5e cable supports 2.5G traffic over 100 meters and more.
 
 10/100 Managed Switch
 ~~~~~~~~~~~~~~~~~~~~~
@@ -108,6 +109,10 @@ PoE Gigabit Switches
 * TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
 * TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
 
+PoE Multi-Gig Switches
+~~~~~~~~~~~~~~~~~~~~~~
+
+* TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
 
 Load Balance VPN Router
 -----------------------

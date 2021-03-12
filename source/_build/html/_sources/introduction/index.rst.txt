@@ -92,8 +92,10 @@ Non-PoE Gigabit Switches
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG2008 JetStream 8-Port Gigabit Smart Switch
-* TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
-* TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch with 24-Port PoE+
+* TL-SG3210(UN)V3.0 JetStream 8-Port Gigabit L2+ Managed Switch with 2 SFP Slots
+* TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch
+* TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
+* TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
 
 PoE Gigabit Switches
 ~~~~~~~~~~~~~~~~~~~~
@@ -104,6 +106,7 @@ PoE Gigabit Switches
 * TL-SG2428P JetStream 24-Port Gigabit Smart Switch with 24-Port PoE+ and 4-port SFP
 * TL-SG3428MP JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
 * TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
+* TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
 
 
 Load Balance VPN Router

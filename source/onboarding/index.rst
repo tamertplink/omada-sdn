@@ -46,6 +46,7 @@ Other step by step set up guides are listed here:
    
 
    app_ios
+   app_android
    controller_hardware
    controller_windows
    controller_ubuntu

@@ -35,6 +35,7 @@ Controller version 4 Omada SDN
     * TL-SG3452(UN)V1.0 48-port managed gigabit switch with 4 SFP uplinks
     * TL-SG3428MP(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP uplinks
     * TL-SG3428(UN)V1.0 24-port managed gigabit switch with 4 SFP uplinks
+    * TL-SG3210XHP-M2 8-Port managed POE+ 2.5GBASE-T switch with 2 10GE SFP+ uplinks
     * TL-SG2428P(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP uplinks
     * TL-SG2210MP(UN)V1.0 8-port managed POE+ gigabit switch with 2 SFP uplinks
     * TL-SG2210P(UN)V3.2 8-port managed POE+ gigabit switch with 2 SFP uplinks
@@ -47,11 +48,11 @@ Controller version 4 Omada SDN
     * ER605 (TL-R605) Small Office Gigabit Load Balance VPN Router
 
 * Controller
-    
-    * OC200 hardware controller for up to 100 SDN devices
-    * OC300 hardware controller for up to 500 SDN devices
-    * Software controller for up to 1,500 SDN devices
+
     * Cloud based controller
+    * Software controller for up to 1,500 SDN devices
+    * OC300 hardware controller for up to 500 SDN devices
+    * OC200 hardware controller for up to 100 SDN devices
 
 Controller version 3 Omada Wireless
 -----------------------------------
@@ -71,8 +72,8 @@ Controller version 3 Omada Wireless
 
 * Controller
     
-    * OC200 hardware controller
     * Software controller
+    * OC200 hardware controller
 
 Older versions
 --------------
