@@ -4,13 +4,13 @@ Introduction
 
 TP-Link Omada SDN system is an easy-to-use business class corporate network system. It has a controller for discover, set up, and manage the Omada SDN devices. With the TP-Link Omada cloud directory service, and Omada mobile app, you can get instant notifications from your system and make immediate responses. Anytime and anywhere. The solution includes the network controller, wireless access point, network switche, and load balance VPN router.
 
-What is SDN?
-------------
+1. What is SDN?
+---------------
 
 The SDN stands for Software Defined Networking. Deploying traditional network devices, you have to have a thorough understanding of the network equipment, the interaction behaviors in between, and the set-up commands to each one of the devices. The Omada SDN abstracts the system controls in one center controller provides smooth integrations on the system level and save the detailed device set up to the software commands.
 
-Controllers
------------
+2. Controllers
+--------------
 
 There are three different flavors of controllers in Omada SDN Solution, hardware controller, software controller, and cloud based controller. Each controller was designed to server a targeted size of network. The OC200 can manager 100 Omada SDN devices. The OC300 can manage 500 devices. The software controller can manage up to 1,500 devices. The cloud based controller is a subscription based management service and has no limit in the number of managed devices. 
 
@@ -20,21 +20,21 @@ Once the site has been set up. It can be freely moved from one controller to ano
 
 .. image:: /images/controller_compare.png
 
-Wireless Access Points
-----------------------
+3. Wireless Access Points
+-------------------------
 
 TP-Link Omada EAP high density wireless access points were designed for crowded environments. With the latest WiFi 6 technology, the Omada EAP can service multi-gig communication wireless. The 802.11ac wave 2 (WiFi5) access points provide solid connections and well coverage for business. The 802.11n access points expands the wireless everywhere for your IoT devices. 
 
-List of EAPs
-~~~~~~~~~~~~
+3.1 List of EAPs
+~~~~~~~~~~~~~~~~
 
 .. note::
     This is the list of Omada SDN selling in US region. Wireless access points can be different by region due to the local regulation.
 
 The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 6 access points. The EAP2xx are 802.11ac wave 2 (WiFi 5) access points and the The EAP1xx are classic 802.11n access points. The EAP3xx series has been end of life since 2018.
 
-High density series
-^^^^^^^^^^^^^^^^^^^
+3.1.1 High density series
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 +------------+-----------+-----------+-----------+
 | Model      | EAP660 HD | EAP620 HD | EAP265 HD |
@@ -48,8 +48,8 @@ High density series
 | Ethernet   | 2.5G      | Gigabit   | Gigabit   |
 +------------+-----------+-----------+-----------+
 
-Ceiling mount EAPs
-^^^^^^^^^^^^^^^^^^
+3.1.2 Ceiling mount EAPs
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 +------------+-----------+-----------+-----------+
 | Model      | EAP245    | EAP225    | EAP115    |
@@ -59,8 +59,8 @@ Ceiling mount EAPs
 | Speed      | AC1750    | AC1350    | N300      |
 +------------+-----------+-----------+-----------+
 
-Other EAPs
-^^^^^^^^^^
+3.1.3 Other EAPs
+^^^^^^^^^^^^^^^^
 
 +------------+----------------+----------------+-------------+--------------+
 | Model      | EAP225-Outdoor | EAP110-Outdoor | EAP235-Wall | EAP225-Wall  |
@@ -73,8 +73,8 @@ Other EAPs
 +------------+----------------+----------------+-------------+--------------+
 
 
-Managed Switches
-----------------
+4. Managed Switches
+-------------------
 
 All Omada SDN switches came from the field proof JetStream business manage switches. The connecting speed can be varied from 10G, 5G, 2.5G, gigabit, to 10/100. Deploy your network as flexible as you can and manage your network as easy as possible. With the Omada controller, setting virtual networks and personal authentications are just a few clicks away.
 
@@ -84,13 +84,13 @@ All 2021 JetStream managed switches are compatible to Omada SDN and can be contr
 
 The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink ports. This is the perfect partner with the EAP660 HD for 2.5G Ethernet backhaul. No new wire is required, the traditional CAT5e cable supports 2.5G traffic over 100 meters and more.
 
-10/100 Managed Switch
-~~~~~~~~~~~~~~~~~~~~~
+4.1 10/100 Managed Switch
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SL2428P(UN)V4.2 JetStream 24-Port 10/100Mbps + 4-Port Gigabit Smart Switch with 24-Port PoE+
 
-Non-PoE Gigabit Switches
-~~~~~~~~~~~~~~~~~~~~~~~~
+4.2 Non-PoE Gigabit Switches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG2008 JetStream 8-Port Gigabit Smart Switch
 * TL-SG3210(UN)V3.0 JetStream 8-Port Gigabit L2+ Managed Switch with 2 SFP Slots
@@ -98,8 +98,8 @@ Non-PoE Gigabit Switches
 * TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
 * TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
 
-PoE Gigabit Switches
-~~~~~~~~~~~~~~~~~~~~
+4.3 PoE Gigabit Switches
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG2008P JetStream 8-Port Gigabit Smart Switch with 4-Port PoE+
 * TL-SG2010P JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP
@@ -109,13 +109,13 @@ PoE Gigabit Switches
 * TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
 * TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
 
-PoE Multi-Gig Switches
-~~~~~~~~~~~~~~~~~~~~~~
+4.4 PoE Multi-Gig Switches
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
 
-Load Balance VPN Router
------------------------
+5. Load Balance VPN Router
+--------------------------
 
 The SafeStream Load Balance VPN routers were designed for small offices as well as the telecommuters. The router can connect up to 4 ISP for voice and data, corporate and private line. You can aggregate bandwidth with the multiple services, or set the rule to direct the certain traffic going to the dedicated line. Easy setup IPSEC VPN and OpenVPN for company connection and personal use. Attack detection and stateful firewall improves your network security. Portal access to personalize your network access. All the tools that everything you need to make the fast an secured connections are set inside the box.
 
@@ -124,8 +124,8 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 .. note::
     TL-SG605 was the previous model number of ER605 and the TL-SG7206 was the previous model number of ER7206.
 
-Comparison of the ER7602 and ER605
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.1 Comparison of the ER7602 and ER605
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +------------+-----------+-----------+
 | Model      | ER7602    | ER605     |
@@ -142,8 +142,8 @@ Comparison of the ER7602 and ER605
 | Throughput |           |           |
 +------------+-----------+-----------+
 
-Key Features
-~~~~~~~~~~~~
+5.2 Key Features
+~~~~~~~~~~~~~~~~
 
 There are many features the SafeStream routers can do in a small office environment. The key features are listed here:
 
@@ -156,15 +156,15 @@ There are many features the SafeStream routers can do in a small office environm
 .. note::
     The OpenVPN feature is only available when the SafeStream router is in the controller model
 
-Site-to-Site vs. Client-to-Site
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.3 Site-to-Site vs. Client-to-Site VPN
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The terms are self explained. The site-to-site VPN creates a secured tunnel between two sites. Computers on both sides don't have to aware the existence of the secured tunnel and can communicate to end points on both sites without effort. In Omada SDN, you can create a site-to-site VPN tunnel simply states which site you want to connect with and then the tunnel can be created.
 
 If you have a single device you want to connect to the office securely. You can setup the client-to-site VPN server on the SafeStream router. 
 
-VPN Capacity
-~~~~~~~~~~~~
+5.4 VPN Capacity
+~~~~~~~~~~~~~~~~
 
 VPN secured tunnel requires encryption and decryption to the traffic on both directions. Depends on the method of the encryption and decryption you choose, the passing through speed and tunnel capacity will be different. 
 
@@ -181,17 +181,16 @@ VPN secured tunnel requires encryption and decryption to the traffic on both dir
 | Client        |        |       |
 +---------------+--------+-------+
 
-Load Balance
-~~~~~~~~~~~~
+5.5 Load Balance
+~~~~~~~~~~~~~~~~
 
 The load balance SafeStream routers provided are not on the datagram based, but on session based. You can set your policy allowed which session going through which router and the session fall back can be performed based on the fall back rules. 
 
-Your Deployment, Your Choice
-----------------------------
+6. Your Deployment, Your Choice
+-------------------------------
 
-**Don’t want to set up a controller?**
-**Don’t like the cloud connection?**
-
-**No problem!**
+**Wants more flexibility and scalability?**
+**You got it!**
+**All Omada devices can work with or without controller, the controller can work with or without the cloud service**
 
 All Omada SDN solution devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your preferences, you can choose the way you want your network behave. 

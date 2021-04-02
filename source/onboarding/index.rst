@@ -4,18 +4,18 @@ Installation
 
 The Omada SDN was designed as a complete system with center control. In the real world installation, you may find the use case requires third party product integration. Omada SDN products are flexible to that request. You can set and use the device standalone or managed by a controller. When Omada SDN product works in standalone mode, it can be integrated into other software define networking system through traditional telnet, SNMP, or CLI over console port. You can also control the devices through CLI over SSH and controlled by the Ansible playbook. 
 
-Cloud or No Cloud
------------------
+1. Cloud or No Cloud
+--------------------
 
-It is your decision to use TP-Link cloud services or not. The **TP-Link cloud directory service** provides an easy way to discover and connect to your device and get notification from the system. TP-Link cloud directory service shares the account credential over different systems. If you already in use one of the TP-Link product, the Kasa, Deco, Tapo, or Vigi, you probably have the service account already. If you want to total control your Omada SDN network, you can still do it with some manual set ups. the cloud directory service is not required to build the network. However, it is required if you want to receive notification on your mobile phone. This service is free.
+It is your decision to use TP-Link cloud services or not. The **TP-Link cloud directory service** is a free cloud service provides an easy way to discover and connect to your device and get notification from the system. TP-Link cloud directory service shares the account credential over different systems. If you already in use one of the TP-Link product, the Kasa, Deco, Tapo, or Vigi, you probably have the service account already. If you want to exclusively control your Omada SDN network, you can still do it with some manual set ups. the cloud directory service is not required to build the network. However, it is essential to enable the automatic installation. The phone app notification of your system status is requiring the cloud service as well.
 
 **TP-Link Omada Cloud Based Controller** is a Omada network controller maintained by TP-Link. It is a subscription based service with annual fee. Check the `product page`_ for price details. The cloud based controller has all the features comes with the software controller and the hardware controller. The extra benefit is that it is backed by TP-Link AI server for extra zero touch provisioning and automatic wireless power and channel adjustment features.
 
 .. _product page: https://www.tp-link.com/us/business-networking/omada-sdn-controller/omada-cloud-based-controller/
 
 
-Choose your controller
-----------------------
+2. Choose your controller
+-------------------------
 
 There are three different flavors of controllers in Omada SDN. Hardware, software, and cloud based controller. All the controllers designed with the same network logic and it is flexible to move the network settings from one controller to another. If Omada SDN is new to you and you want just to experience it, you can simply download a free Omada software controller to have an initial try. 
 
@@ -26,18 +26,16 @@ When you are done with the proof of the concept, you can prepare a dedicate serv
 +---------------+-------+-------+---------------------+------------------------+
 | Model         | OC200 | OC300 | Software Controller | Cloud based controller |
 +===============+=======+=======+=====================+========================+
-| Max. Devices  | 100   | 500   | 1,500               | Subscription based     |
+| Max. Devices  | 100   | 500   | 1,500               | No limit               |
 +---------------+-------+-------+---------------------+------------------------+
 
-An Example Basic Network Setup 
+3. An Example of Basic Network Setup 
+------------------------------------
+
+You can follow through this set up example to experience the complete system setup from the beginning to the end. :doc:`/recipes/recipe_basic_system`
+
+4. List of Installation Guides
 ------------------------------
-
-You can follow through this set up example to experience the complete system setup from the beginning to the end. `An example setting up a basic network`_
-
-.. _An example setting up a basic network: ../recipes/recipe_basic_system.html
-
-Installation Guides
--------------------
 
 Other step by step set up guides are listed here:
 

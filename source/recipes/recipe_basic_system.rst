@@ -1,11 +1,10 @@
-
-Use Case: Set up a basic network
+Use Case: A basic network setup
 ================================
 
 This example demonstrates the most easy way to set up a basic network. You can of course mix and match the different combinations of the devices to fit your need. Here we just choose one typical network and a smooth way of installation. You can read other sections of this document for more detail.
 
-Bill of material
-----------------
+1. Bill of material
+-------------------
 
 * ER605 (TL-R605) router
 * TL-SG2008P switch, 8-port gigabit switch with 4 port POE
@@ -13,8 +12,8 @@ Bill of material
 * OC200
 * Android Phone or iPhone
 
-Topology
-~~~~~~~~
+2. Topology
+-----------
 
 .. image:: /images/topology_basic.png
     :width: 70%
@@ -28,16 +27,11 @@ Connecting your devices with above topology
 * Connect the EAP225 LAN port to one of the TL-SG2008P PoE port (port 1 to port 4)
 * Make sure all the devices have the latest firmware and with the factory default setting
 
-Power them up and wait for the system checking and booting. The boot up time is a little bit longer than the SOHO product to bring up more features. Wait for 5 minutes and check the status lights. If the OC200 **Cloud** LED is blinking. It means the OC200 has the Internet access everything is ready. If not, double check the wiring and reset the devices again to make sure they are with factory default settings.
+Power them up and wait for the system checking and booting. The boot up time is longer than the SOHO products for more features to kick up. Wait for 5 minutes and check the status lights. If the OC200 **Cloud** LED is blinking. It means the OC200 has the Internet access everything is ready. If not, double check the wiring and reset the devices again to make sure they are all in the factory default state.
 
 .. note::
     The ER605/ER7206 has default network set to 192.168.0.1. If your ISP gateway was set to the same local subnet, you can remove the ER605/ER7206 from the topology for now. We can add it back later.
 
-Omada App and Cloud Account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Download the Omada app for `Apple`_ or `Android`_.
-
-.. _Apple: https://apps.apple.com/app/id1327615864
-.. _Android: https://play.google.com/store/apps/details?id=com.tplink.omada
+3. Install the controller
+-------------------------
 
