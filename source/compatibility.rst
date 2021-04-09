@@ -1,6 +1,6 @@
 
-Compatibility
-=============
+Omada SDN Compatible Devices
+============================
 
 The Omada SDN controller is the alias of the Omada version 4 controller. The previous version of controllers were called Omada wireless controller since it controls only wireless EAP.
 

@@ -37,8 +37,6 @@ You can follow through this set up example to experience the complete system set
 4. List of Installation Guides
 ------------------------------
 
-Other step by step set up guides are listed here:
-
 .. toctree::
    :maxdepth: 1
    
@@ -49,3 +47,4 @@ Other step by step set up guides are listed here:
    controller_windows
    controller_ubuntu
    eap_onboarding
+   /faq/ssh

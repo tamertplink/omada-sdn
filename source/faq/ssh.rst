@@ -74,6 +74,8 @@ Which means your macOS is not supporting the key exchange method. You can follow
 3. Enter the administrator password.
 
 .. image:: /images/ssh_config_file.png
+    :width: 80%
+    :align: center
 
 4. go to the bottom of the file and insert these lines:
 

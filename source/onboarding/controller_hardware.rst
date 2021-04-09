@@ -4,8 +4,8 @@ Install the Omada Hardware Controller
 
 Set up an Omada SDN hardware controller is intuitive. Follow the video guide or step by step instructions to install the hardware controller.
 
-1. Install OC200 with the Omada App
------------------------------------
+1. Install OC200/OC300 with the Omada App
+-----------------------------------------
 
 1.1 Video guide
 ~~~~~~~~~~~~~~~
@@ -28,6 +28,9 @@ Step 2. Create an Omada cloud account and login to your Omada app.
 
 Step 3. Make sure the controller and the phone has the internet. The slow blinking **cloud LED** on the controller means the internet is available. 
 
+.. note::
+    The OC200 can be powered by PoE. Alternatively, it can powered by a phone charger (not comes with the package) with micro USB connector and rated 5VDC/1A output. The OC300 comes with the AC power cord to plug in to the AC power source directly. 
+
 .. image:: /images/oc200_blink.gif
     :width: 35%
     :align: center
@@ -39,8 +42,8 @@ Step 4. Tap the **+** sign in the top right corner to add a new controller. Foll
     :align: center
 
 
-2. Install OC200 with a web browser
------------------------------------
+2. Install OC200/OC300 with a web browser
+-----------------------------------------
 
 2.1 Video guide
 ~~~~~~~~~~~~~~~
@@ -55,6 +58,9 @@ Step 4. Tap the **+** sign in the top right corner to add a new controller. Foll
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Step 1. Make sure the controller and your computer has the internet. The slow blinking **cloud LED** on the controller means the internet is available. 
+
+.. note::
+    The OC200 can be powered by PoE. Alternatively, it can powered by a phone charger (not comes with the package) with micro USB connector and rated 5VDC/1A output. The OC300 comes with the AC power cord to plug in to the AC power source directly. 
 
 .. image:: /images/oc200_blink.gif
     :width: 35%
@@ -93,3 +99,8 @@ Step 7. Click on the **Done** button after the installation
     .. image:: /images/omada_controller_add_hw_final.png
         :width: 70%
         :align: center
+
+More Readings
+-------------
+
+:doc:`/recipes/recipe_basic_system`
