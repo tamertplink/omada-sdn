@@ -47,5 +47,4 @@ Other step by step set up guides are listed here:
    app_ios
    controller_hardware
    controller_windows
-   controller_ubuntu
    eap_onboarding
