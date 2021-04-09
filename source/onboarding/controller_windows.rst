@@ -1,6 +1,6 @@
 
-Omada Controller Installation on Windows System
-===============================================
+Install Omada Controller on Windows System
+==========================================
 
 .. note::
     This installation guide is based on Omada controller version 4.2.11. For installation guide on previous versions, please visit the software download site to download the user's guide on your version. https://www.tp-link.com/us/support/download/omada-software-controller/
@@ -82,7 +82,7 @@ Step 8. Depends on the computer you are installing the controller, you may wait 
         :width: 50%
         :align: center
 
-Your default web browser will lead you to https://localhost:8043, the Omada controller default url. If you want to access the controller from other computer, please setup the Windows firewall opened at port 8088 for http and 8043 for https. The http port is just for the connectivity. The communication is going through https.
+Your default web browser will lead you to https://localhost:8043, the Omada controller default url. If you want to access the controller from other computer, please setup the Windows firewall opened at port 8043 for https.
 
 .. note::
     A "Your connection is not private" warning may pop up due to the self-signed private security used by the controller. Please choose the advanced option and accept the way of access. You can setup your own SSL key to remove this warning after setting.
@@ -129,6 +129,7 @@ Step 7. The system setup is done by now. You can then click through the overview
 
 .. image:: /images/omada_controller_setup_7.png
     :align: center
+
 
 More Readings
 -------------

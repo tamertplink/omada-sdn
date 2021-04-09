@@ -124,7 +124,7 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 .. note::
     TL-SG605 was the previous model number of ER605 and the TL-SG7206 was the previous model number of ER7206.
 
-5.1 Comparison of the ER7602 and ER605
+5.1 Comparison of the ER7206 and ER605
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +------------+-----------+-----------+
@@ -170,7 +170,7 @@ If you have a single device you want to connect to the office securely. You can 
 VPN secured tunnel requires encryption and decryption to the traffic on both directions. Depends on the method of the encryption and decryption you choose, the passing through speed and tunnel capacity will be different. 
 
 +---------------+--------+-------+
-| Model         | ER7602 | ER605 |
+| Model         | ER7206 | ER605 |
 +===============+========+=======+
 | IPSEC Tunnels | 100    | 20    |
 | with 3DES     |        |       |
@@ -202,4 +202,4 @@ Quick Links
 -----------
 
 * :doc:`Omada SDN controller compatible devices</compatibility>`
-* :doc:`Omada SDN switch naming Convention</introduction/omada_switch_naming>`
+* :doc:`Omada SDN managed switch naming Convention</introduction/omada_switch_naming>`

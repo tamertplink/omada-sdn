@@ -12,8 +12,7 @@ Set up an Omada SDN hardware controller is intuitive. Follow the video guide or 
 
 .. raw:: html
 
-    <div align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qkt8rfrkaYU" frameborder="0" allowfullscreen></iframe></div>
-
+    <div align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qkt8rfrkaYU" frameborder="0" allowfullscreen></iframe></div><br>
 
 
 1.2 Step by step instructions
@@ -50,7 +49,7 @@ Step 4. Tap the **+** sign in the top right corner to add a new controller. Foll
 
 .. raw:: html
 
-    <div align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EMjnZ-eIV7U" frameborder="0" allowfullscreen></iframe></div>
+    <div align="center"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EMjnZ-eIV7U" frameborder="0" allowfullscreen></iframe></div><br>
 
     
     
