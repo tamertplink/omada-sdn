@@ -3,7 +3,7 @@ Omada Controller Installation on Windows System
 ===============================================
 
 .. note::
-    This installation guide is based on Omada controller version 4.2.8. For installation guide on previous versions, please visit the software download site to download the user's guide on your version. https://www.tp-link.com/us/support/download/omada-software-controller/
+    This installation guide is based on Omada controller version 4.2.11. For installation guide on previous versions, please visit the software download site to download the user's guide on your version. https://www.tp-link.com/us/support/download/omada-software-controller/
 
 .. note::
     The Omada SDN software is a version 4 controller and does not compatible to legacy EAP devices. Please check this `list`_ for compatibility.
@@ -13,14 +13,14 @@ Omada Controller Installation on Windows System
 Software
 --------
 
-You can download the Omada SDN Windows controller 4.2.8 `here`_.
+You can download the Omada SDN Windows controller 4.2.11 `here`_.
 
-.. _here: https://www.tp-link.com/us/support/download/omada-software-controller/#Controller_Software
+.. _here: https://static.tp-link.com/2021/202102/20210209/Omada_Controller_V4.2.11_Windows.zip
 
 Prerequisite
 ------------
 
-You can run the Omada controller with minimum hardware requirements recommended by Windows system. In the production environment serving up to 1,500 devices with the controller, the following hardware is recommended:
+You can run the Omada controller with minimum hardware requirements recommended by Microsoft. In the production environment serving up to 1,500 devices with the controller, the following hardware is recommended:
 
 * CPU: Intel Core i3-8100, i5-6500, or i7-4700 with 2 or more cores and 4 or more threads. 
 * Memory: 6 GB RAM or more

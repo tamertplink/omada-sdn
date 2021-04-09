@@ -49,4 +49,3 @@ Other step by step set up guides are listed here:
    controller_windows
    controller_ubuntu
    eap_onboarding
-   ssh

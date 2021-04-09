@@ -119,11 +119,11 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 .. note::
     TL-SG605 was the previous model number of ER605 and the TL-SG7206 was the previous model number of ER7206.
 
-Comparison of the ER7602 and ER605
+Comparison of the ER7206 and ER605
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +------------+-----------+-----------+
-| Model      | ER7602    | ER605     |
+| Model      | ER7206    | ER605     |
 +============+===========+===========+
 | Speed      | Gigabit   | Gigabit   |
 +------------+-----------+-----------+

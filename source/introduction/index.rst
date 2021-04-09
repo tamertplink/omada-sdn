@@ -128,9 +128,10 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +------------+-----------+-----------+
-| Model      | ER7602    | ER605     |
+| Model      | ER7206    | ER605     |
 +============+===========+===========+
-| Speed      | Gigabit   | Gigabit   |
+| NAT        | 940Mbps   | 940Mbps   |
+| Throughput |           |           |
 +------------+-----------+-----------+
 | Concurrent | 150K      | 25K       |
 | Session    |           |           |
@@ -190,7 +191,15 @@ The load balance SafeStream routers provided are not on the datagram based, but 
 -------------------------------
 
 **Wants more flexibility and scalability?**
+
 **You got it!**
-**All Omada devices can work with or without controller, the controller can work with or without the cloud service**
+
+**All Omada devices can work with or without controller, the controller can work with or without the cloud service. You have choices with your network design.**
 
 All Omada SDN solution devices can still work in standalone mode without controller. The Omada SDN controller can work standalone without TP-Link cloud service. Depends on your design and your preferences, you can choose the way you want your network behave. 
+
+Quick Links
+-----------
+
+* :doc:`Omada SDN controller compatible devices</compatibility>`
+* :doc:`Omada SDN switch naming Convention</introduction/omada_switch_naming>`
