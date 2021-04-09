@@ -29,3 +29,4 @@ Index
    compatibility
    introduction/omada_switch_naming
    faq/faq
+   faq/ssh

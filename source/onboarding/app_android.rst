@@ -2,8 +2,8 @@
 Install Omada App on an Android Phone 
 =====================================
 
-Download the app 
-----------------
+1. Download the app 
+-------------------
 
 To download the TP-Link Omada app on your Android Phone, go to your play store searching for **TP-Link Omada** app or visit this `link`_  
 
@@ -13,8 +13,8 @@ To download the TP-Link Omada app on your Android Phone, go to your play store s
     :align: center
     :width: 70%
 
-Grant permit to the Omada app 
------------------------------
+2. Grant permit to the Omada app 
+--------------------------------
 
 Allow the Omada app notify you for critical network event. Review and agree the service agreement. The Omada cloud service is part of the TP-Link cloud services. If you used any of the TP-Link cloud services before for Kasa (Smart Home), Deco (Mesh Wireless), Tapo (Home Automation), Vigi (Surveillance Camera) or other products, you have the Omada cloud account already. You can use the same cloud account for the Omada Cloud.
 
@@ -24,8 +24,8 @@ Allow the Omada app notify you for critical network event. Review and agree the 
 
 The installation is done.
 
-Log in to the Omada app
-------------------------------
+3. Log in to the Omada app
+--------------------------
 
 Login with your TP-Link cloud account or apply for a new account if you want using a different credential.
 
