@@ -1,5 +1,5 @@
-Omada SDN Example : Air B&B
-====================================
+Omada SDN Example : Airbnb
+==========================
 
 .. image:: /images/uc_airbnb.png
     :width: 100%
@@ -31,4 +31,8 @@ VPN and content filtering
 Omada SDN router comes with website address filtering and VPN connections. You can create separate logins password for family with or without parental control.
 
 In another situation, you may want to protect your own IP, not to been listed by your ISP as abused for illegal download and you want to set the VPN for your guest connection, The Omada SDN router can do that for you as well.
-    
+
+Promotion
+---------
+
+Omada SDN comes with the Facebook WiFi feature. User may login the WiFi using the Facebook account. No new password is required. Safe and easy. Facebook check-in is optional for social media exposure.
