@@ -1,5 +1,5 @@
-Omada SDN Example : Motel WiFi
-==============================
+Omada SDN Example : Motel or Hostel
+===================================
 
 .. image:: /images/uc_motel.jpg
     :width: 100%

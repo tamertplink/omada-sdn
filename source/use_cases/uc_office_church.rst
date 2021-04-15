@@ -1,5 +1,5 @@
-Omada SDN Example : Church Networking
-=====================================
+Omada SDN Example : Church
+==========================
 
 .. image:: /images/uc_church.jpg
     :width: 100%
