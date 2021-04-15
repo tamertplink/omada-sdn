@@ -16,9 +16,3 @@ You can enable the wireless mesh feature on the Omada SDN controller. Once it is
 .. image:: /images/uc_beach_resort.png
     :width: 80%
     :align: center
-    
-Installation
-------------
-
-* Reference  for detail instructions on access point set up.
-* Remember using a shielded Ethernet cable to connect to the access point and ground the PoE injector proper to provide the best lighting protection.
