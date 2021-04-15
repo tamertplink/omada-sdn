@@ -26,6 +26,7 @@ Index
    introduction/index
    onboarding/index
    recipes/index
+   use_cases/index
    compatibility
    introduction/omada_switch_naming
    faq/faq

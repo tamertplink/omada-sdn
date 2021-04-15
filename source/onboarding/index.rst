@@ -45,6 +45,5 @@ You can follow through this set up example to experience the complete system set
    app_android
    controller_hardware
    controller_windows
-   controller_ubuntu
    eap_onboarding
    /faq/ssh
