@@ -23,5 +23,5 @@ Integrated Services
 The Omada outdoor EAP is part of Omada SDN networking. It is an extended integrated service from the inside to the outside. The flexible **site** management allows you separate the management logically to separate the restaurant access to the hotel room services. The network is still under integrated center control.
 
 .. image:: /images/uc_hotel_topo.png
-:width: 80%
-:align: center
+    :width: 90%
+    :align: center
