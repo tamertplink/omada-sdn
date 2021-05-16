@@ -24,6 +24,6 @@ The Omada SDN SFP+ 10G fiber switch aggregates all the 10G uplink gigabit manage
 topology
 --------
 
-.. image:: /images/uc_church_topology.jpg
+.. image:: /images/uc_church_topo.png
     :width: 85%
     :align: center
