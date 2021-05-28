@@ -10,24 +10,46 @@ The retail business keeps changing. It was once important for people to come by 
 Electronic product list and the guest wireless
 ----------------------------------------------
 
+.. image:: /images/uc_retail_menu.png
+    :width: 90%
+    :align: center
+
 This is one of the major changes affected by the COVID-19 pandemic. The electronic product map was used only in the warehouse shopping. Locating the product in the store. After the pandemic, people ordered food in stores using their cell phone more often than asked the waiter. An easy version of the electronic menu is simply a website. And, you may want to provide guest wireless in store, so your customer can smoothly order their food.
 
 Store phone extension and credit card terminal on the cell phone
 ----------------------------------------------------------------
 
+.. image:: /images/uc_retail_mobile_creditcard.jpg
+    :width: 90%
+    :align: center
+
 You may want to make your employee mobile in the store approaching the customers instead of making a line on the door. A lot of modern digital phone systems allow you to install the soft phone extension on the cell phone. And, there are apps to enable the credit card process on the cell phone. Think about the Apple store experience. It is happening in more retail stores now. 
 
 Whole store music distribution system
 -------------------------------------
+
+.. image:: /images/uc_retail_music.jpg
+    :width: 90%
+    :align: center
+
 To create unique shopping experiences, background music is one of the key elements. Either you can create experience corners, create different atmospheres, or you want to broadcast the same background music the whole store. The modern distributed music system can dynamically group the speaker and stream the music you want to the designated corner.
 
 Digital signage
 ---------------
 
+.. image:: /images/uc_retail_signage.jpg
+    :width: 90%
+    :align: center
+
 You don’t have to spend thousands of dollars to put on the digital signage. With a Roku TV, you have a basic version of digital signage.
 
 AI enabled video camera
 -----------------------
+
+.. image:: /images/uc_retail_ai.jpg
+    :width: 80%
+    :align: center
+
 Setting up the video surveillance cameras for security reasons and preventing shoplifting is one thing, sensing the environment for marketing is another. With the new technology, the head counting and human detection cameras are readily available now. Now you have the powerful tool to record how your customer is visiting your store, and how you can adjust your displays.
 
 Data, dat, and lots of data
