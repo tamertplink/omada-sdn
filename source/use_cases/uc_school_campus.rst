@@ -50,6 +50,21 @@ Many of the Omada SDN switches has SFP for gigabit or SFP+ for 10G fiber optic m
 
     Gigabit and 10G SFP/SFP+ fiber modules 
 
+10G uplink managed SDN switches
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Here's the list of the SDN managed switches that supports SFP+ 10G fiber communication.
+
++--------------+-----------------+-------------+--------------+-------------+-------------+
+| Model        | TL-SG3210XHP-M2 | TL-SG3428X  | TL-SG3428XMP | TL-SG3452X  | TL-SG3452XP |
++==============+=================+=============+==============+=============+=============+
+| Access Ports | 8x 2.5G         | 24x Gigabit | 24x Gigabit  | 48x Gigabit | 48x Gigabit |
++--------------+-----------------+-------------+--------------+-------------+-------------+
+| Uplink ports | 2x 10G SFP+     | 2x 10G SFP+ | 2x 10G SFP+  | 2x 10G SFP+ | 2x 10G SFP+ | 
++--------------+-----------------+-------------+--------------+-------------+-------------+
+| PoE          | 240W            | --          | 384W         | --          | 384W        |
++--------------+-----------------+-------------+--------------+-------------+-------------+
+
 Fiber aggregation switches
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
