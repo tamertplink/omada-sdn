@@ -10,7 +10,7 @@ It’s a cyber-social era. Everyone wants to share the moment right when it happ
 Micro cells
 -----------
 
-.. image:: /images/uc_stadium_micro_cell.jpg
+.. image:: /images/uc_stadium_micro_cell.png
     :width: 100%
     :align: center
 
@@ -23,7 +23,7 @@ The next challenge is roaming when you divide a large space into many small cell
 High density
 ------------
 
-.. image:: /images/uc_stadium_high_density..jpg
+.. image:: /images/uc_stadium_high_density.png
     :width: 60%
     :align: center
 
