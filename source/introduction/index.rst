@@ -116,6 +116,7 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 4.4 PoE Multi-Gig Switches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
 * TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
 
 5. Load Balance VPN Router
