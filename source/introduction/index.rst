@@ -14,7 +14,7 @@ The SDN stands for Software Defined Networking. Deploying traditional network de
 
 There are three different flavors of controllers in Omada SDN Solution, hardware controller, software controller, and cloud based controller. Each controller was designed to server a targeted size of network. The OC200 can manager 100 Omada SDN devices. The OC300 can manage 500 devices. The software controller can manage up to 1,500 devices. The cloud based controller is a subscription based management service and has no limit in the number of managed devices. 
 
-.. info::
+.. note::
 
     The Omada Cloud based Controller, CBC was designed for partner enterprises. Please register the business partner account and request for the services. https://partner.tp-link.com/
 
