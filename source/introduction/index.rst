@@ -2,23 +2,25 @@
 Introduction
 ============
 
-TP-Link Omada SDN system is an easy-to-use business class corporate network system. It has a controller for discover, set up, and manage the Omada SDN devices. With the TP-Link Omada cloud directory service, and Omada mobile app, you can get instant notifications from your system and make immediate responses. Anytime and anywhere. The solution includes the network controller, wireless access point, network switche, and load balance VPN router.
+TP-Link Omada SDN system is an easy-to-use business class corporate network system. An Omada controller consolidates all the system settings and helps to discover, set up, and manage the Omada SDN devices. With the holoscope of the system through the controller, the network administrator can manage multiple networks through a single control interface. With the free TP-Link Omada cloud directory service, and Omada mobile app, the network manager can monitor the system 24/7 anywhere. The system will notify the system manager when a triggered event happens. The solution includes the network controller, wireless access point, network switch, and load balance VPN router.
 
 1. What is SDN?
 ---------------
 
-The SDN stands for Software Defined Networking. Deploying traditional network devices, you have to have a thorough understanding of the network equipment, the interaction behaviors in between, and the set-up commands to each one of the devices. The Omada SDN abstracts the system controls in one center controller provides smooth integrations on the system level and save the detailed device set up to the software commands.
+The SDN stands for Software Defined Networking. Deploying a traditional network, you have to have a thorough understanding of the network equipment, the interaction behaviors in between, and the set-up commands to each one of the devices. The Omada SDN abstracts the system controls in one center controller, provides smooth integrations on the system level and saves the detailed device set up to the software commands.
 
 2. Controllers
 --------------
 
-There are three different flavors of controllers in Omada SDN Solution, hardware controller, software controller, and cloud based controller. Each controller was designed to server a targeted size of network. The OC200 can manager 100 Omada SDN devices. The OC300 can manage 500 devices. The software controller can manage up to 1,500 devices. The cloud based controller is a subscription based management service and has no limit in the number of managed devices. 
+There are three different flavors of controllers in Omada SDN Solution, hardware controller, software controller, and cloud based controller. Each controller was designed to serve a targeted size of network. The OC200 can manage 100 Omada SDN devices. The OC300 can manage 500 devices. The software controller can manage up to 1,500 devices. The cloud based controller is a subscription based management service and has no limit in the number of managed devices.
 
 .. note::
 
-    The Omada Cloud based Controller, CBC was designed for partner enterprises. Please register the business partner account and request for the services. https://partner.tp-link.com/
+    The Omada Cloud-Based Controller, CBC was designed for partner enterprises. Please register the business partner account and request for the services. https://partner.tp-link.com/
 
-The network control logics in different controllers are the same. Network devices, switch, router, and wireless AP, can be managed together as a site. A site is a logical network unit consisted by a group of network devices. In most of the cases, a logical site is mapping to a physical network site. In some cases, you can set up logical sites for managing purpose.
+The network control logics in different controllers are the same. Network devices, switch, router, and wireless access point, can be managed together as a site. A site is a logical network unit consisting of a group of network devices. In most of the cases, a logical site is mapping to a physical network site. In some cases, you can set up logical sites purely for managing purposes.
+Once the site has been set up. It can freely migrate from one controller to another without extra effort. You can set up your first sites on an OC200 hardware controller to start your project. As your business is growing, you can migrate the site settings to the OC300, to the software controller or to the Cloud-Based Controller.
+
 
 Once the site has been set up. It can be freely moved from one controller to another without extra effort. You can set up your first sites on a OC200 hardware controller to start your project. As your business is growing, you can migrate the site settings to the OC300, to the software controller or to the cloud based controller.
 

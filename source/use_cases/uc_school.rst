@@ -1,5 +1,5 @@
-Omada SDN Example : Pre School
-========================================
+Omada SDN Example : K-12
+========================
 
 .. image:: /images/uc_church_school.jpg
     :width: 100%
