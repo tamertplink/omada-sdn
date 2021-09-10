@@ -2,7 +2,7 @@
 Install the Omada Hardware Controller
 =====================================
 
-Set up an Omada SDN hardware controller is intuitive. Follow the video guide or step by step instructions to install the hardware controller.
+Set up an Omada SDN hardware controller is intuitive. Follow the video guide or step by step instructions down below to install the hardware controller.
 
 1. Install OC200/OC300 with the Omada App
 -----------------------------------------

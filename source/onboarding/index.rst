@@ -9,7 +9,7 @@ The Omada SDN was designed as a complete system with center control. In the real
 
 It is your decision to use TP-Link cloud services or not. The **TP-Link cloud directory service** is a free cloud service provides an easy way to discover and connect to your device and get notification from the system. TP-Link cloud directory service shares the account credential over different systems. If you already in use one of the TP-Link product, the Kasa, Deco, Tapo, or Vigi, you probably have the service account already. If you want to exclusively control your Omada SDN network, you can still do it with some manual set ups. the cloud directory service is not required to build the network. However, it is essential to enable the automatic installation. The phone app notification of your system status is requiring the cloud service as well.
 
-**TP-Link Omada Cloud Based Controller** is a Omada network controller maintained by TP-Link. It is a subscription based service with annual fee. Check the `product page`_ for price details. The cloud based controller has all the features comes with the software controller and the hardware controller. The extra benefit is that it is backed by TP-Link AI server for extra zero touch provisioning and automatic wireless power and channel adjustment features.
+**TP-Link Omada Cloud-Based Controller (CBC)** is a Omada network controller maintained by TP-Link. It is a subscription based service with annual fee. Check the `product page`_ for price details. The cloud based controller has all the features comes with the software controller and the hardware controller. The extra benefit is that it is backed by TP-Link AI server for extra zero touch provisioning and automatic wireless power and channel adjustment features.
 
 .. _product page: https://www.tp-link.com/us/business-networking/omada-sdn-controller/omada-cloud-based-controller/
 
@@ -46,4 +46,5 @@ You can follow through this set up example to experience the complete system set
    controller_hardware
    controller_windows
    eap_onboarding
+   omada_api
    /faq/ssh
