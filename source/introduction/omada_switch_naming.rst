@@ -17,7 +17,7 @@ JetStream Switches
 
 **d:** 1: Unmanaged, 2: Smart Managed, 3 or 5: Fully Managed
 
-**e:** a single digit for number of uplink port
+**e:** a single digit for number of uplink ports
 
 **f:** two digits for number of total available ports
 
