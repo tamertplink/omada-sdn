@@ -51,6 +51,8 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 +------------+-----------+-----------+-----------+
 | Ethernet   | 2.5G      | Gigabit   | Gigabit   |
 +------------+-----------+-----------+-----------+
+| CBC        | Yes       | Yes       | No        |
++------------+-----------+-----------+-----------+
 
 3.1.2 Ceiling mount EAPs
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -63,6 +65,8 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 | Speed      | AX1800    | AC1750    | AC1350    | N300      |
 +------------+-----------+-----------+-----------+-----------+
 | Ethernet   | Gigabit   | Gigabit   | Gigabit   | 10/100    |
++------------+-----------+-----------+-----------+-----------+
+| CBC        | No        | Yes       | Yes       | No        |
 +------------+-----------+-----------+-----------+-----------+
 
 3.1.3 In-Wall EAPs
@@ -77,6 +81,8 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 +------------+-------------+-------------+--------------+
 | Ethernet   | Gigabit     | Gigabit     | 10/100       |
 +------------+-------------+-------------+--------------+
+| CBC        | Yes         | Yes         | No           |
++------------+-------------+-------------+--------------+
 
 3.1.3 Outdoor EAPs
 ^^^^^^^^^^^^^^^^^^
@@ -90,18 +96,21 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 +------------+----------------+----------------+
 | Ethernet   | Gigabit        | 10/100         |
 +------------+----------------+----------------+
-
+| CBC        | Yes            | No             |
++------------+----------------+----------------+
 
 4. Managed Switches
 -------------------
 
 All Omada SDN switches came from the field proof JetStream business manage switches. The connecting speed can be varied from 10G, 5G, 2.5G, gigabit, to 10/100. Deploy your network as flexible as you can and manage your network as easy as possible. With the Omada controller, setting virtual networks and personal authentications are just a few clicks away.
 
-All 2021 JetStream managed switches are compatible with Omada SDN and can be controlled by the Omada SDN controller. The new JetStream managed switches can still work in standalone mode as usual, and are enhanced by adding up the SDN capabilities. There are two subclasses of the managed switches, smart managed switch, model numbered TL-Sx2xx and the fully managed TL-Sx3xx models. The major differences between smart managed switches and fully managed switches are the features in standalone mode. In controller mode, the features on the switches are the same.
+All 2021/2022 JetStream managed switches are compatible with Omada SDN and can be controlled by the Omada SDN controller. The new JetStream managed switches can still work in standalone mode as usual, and are enhanced by adding up the SDN capabilities. There are two subclasses of the managed switches, smart managed switch, model numbered TL-Sx2xx and the fully managed TL-Sx3xx models. The major differences between smart managed switches and fully managed switches are the features in standalone mode. In controller mode, the features on the switches are the same.
 
-.. note:: The JetStream switch features may be different with the future Omada controller. With the version 4.3.5, features in the controller model are all the same.
+.. note:: The JetStream switch features may be different with the future Omada controller. With the version 5 controller, switch features are all the same when operating in the controller mode.
+    
+    There are selected models compatible to the Cloud-Based Controller. A superscript \ :sup:`[cbc]` will be marked in front of the model listed below for distinction.
 
-The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink ports. This is the perfect partner with the EAP660 HD for 2.5G Ethernet backhaul. No new wire is required, the traditional CAT5e cable supports 2.5G traffic over 100 meters and more.
+The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink ports. This is the perfect partner with the EAP660 HD for 2.5G Ethernet back haul. No new wire is required, the traditional CAT5e cable supports 2.5G traffic over 100 meters and more.
 
 4.1 10/100 Managed Switch
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,10 +121,10 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * TL-SG2008 JetStream 8-Port Gigabit Smart Switch
-* TL-SG3210(UN)V3.0 JetStream 8-Port Gigabit L2+ Managed Switch with 2 SFP Slots
-* TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch
-* TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
-* TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
+* \ :sup:`[cbc]` TL-SG3210(UN)V3.0 JetStream 8-Port Gigabit L2+ Managed Switch with 2 SFP Slots
+* \ :sup:`[cbc]` TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch
+* \ :sup:`[cbc]` TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
+* \ :sup:`[cbc]` TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
 
 4.3 PoE Gigabit Switches
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -123,16 +132,16 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 * TL-SG2008P JetStream 8-Port Gigabit Smart Switch with 4-Port PoE+
 * TL-SG2010P JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP
 * TL-SG2210MP JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP (high power)
-* TL-SG2428P JetStream 24-Port Gigabit Smart Switch with 24-Port PoE+ and 4-port SFP
-* TL-SG3428MP JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
-* TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
-* TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
+* \ :sup:`[cbc]` TL-SG2428P JetStream 24-Port Gigabit Smart Switch with 24-Port PoE+ and 4-port SFP
+* \ :sup:`[cbc]` TL-SG3428MP JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
+* \ :sup:`[cbc]` TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
+* \ :sup:`[cbc]` TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
 
 4.4 PoE Multi-Gig Switches
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
-* TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
+* \ :sup:`[cbc]` TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
+* \ :sup:`[cbc]` TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
 
 5. Load Balance VPN Router
 --------------------------
@@ -161,6 +170,8 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 +------------+-----------+-----------+
 | IPSEC VPN  | 291.6Mbps | 41.5Mbps  |
 | Throughput |           |           |
++------------+-----------+-----------+
+| CBC        | Yes       | No        |
 +------------+-----------+-----------+
 
 5.2 Key Features
