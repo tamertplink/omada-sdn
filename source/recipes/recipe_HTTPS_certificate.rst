@@ -58,7 +58,7 @@ An example command can be:
 * **-out:** specify the output file name, we use mydomain.com.p12 here and you can choose an appropriate name yourself.
 * **-certfile:** loading the chain of the certifications, following with the file path name of the certification file.
 * **-name:** the name of this certificate. Please keep it as eap so you don't have to change the controller property settings.
-* **(When prompted to enter the password): ** The app will prompt to ask adding a password for this certificate. Enter any legal password. We use the **epac** as the password in this recepie.
+* **(When prompted to enter the password):** The app will prompt to ask adding a password for this certificate. Enter any legal password. We use the **epac** as the password in this recepie.
   
 Installing the certificate in a Java keystore
 ---------------------------------------------
