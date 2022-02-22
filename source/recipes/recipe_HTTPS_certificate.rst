@@ -1,63 +1,113 @@
 Adding your own HTTPS certificate to the controller
 ===================================================
 
-.. image:: /images/rp_qr_code.jpg
-    :width: 100%
+.. note::
+
+  This recipe is only good for hardware controllers (OC200 or OC300) or software controllers, not for cloud-based controller (CBC). When installing the HTTPS certification, you have to use the direct access to the controller. Remote access through the cloud connection is not going to work (url starts with https//:omada.tplinkcloud.com).
+
+This recipe demonstrates how to add a X.509 certificate on a controller version 5.0 and above. You can set up the HTTPS certificate to the previous version of controllers. A better resource on howto install the certificate on controller 2.7 and above is available on the community post https://community.tp-link.com/en/business/forum/topic/150083
+
+ 
+Prerequisite
+------------
+ 
+* You need a public URL registered with a domain service, the signed X.509 certificate and chain certifications. Most of the CA service providers are giving out the .pem X.509 certificate and .crt chain certificates. 
+
+* The controller accepts the Java key store file to store the HTTPS certificate. Therefore, you need the OPENSSL app to transformat the X.509 format to PKCS format and then use Java  TOOLKIT utility to make the key store.
+
+* To upload the HTTPS Java key store, you need to visit your controller directly, accessing the controller through cloud connection is not going to work.
+
+The certificate
+---------------
+ 
+In this recipe, we use let’s encrypt as the CA signing our certificate with certbot client tool. The example domain is mydomain.com. In Linux command line, you can get the certificate like this:
+
+.. code-block:: bash
+
+    ./certbot-auto certonly --standalone --preferred-challenges http -d mydomain.com
+
+Your certificate may store in the following directory, together with other necessary files:
+
+.. code-block:: bash
+
+    Successfully received certificate.
+    Certificate is saved at: /etc/letsencrypt/live/mydomain.com/fullchain.pem
+    Key is saved at:         /etc/letsencrypt/live/mydomain.com/privkey.pem
+ 
+Transform the certificate format
+--------------------------------
+ 
+To transform the X.509 format to PCKS12 format, you need the openssl.
+
+An example command can be:
+
+.. code-block:: bash
+
+    openssl pkcs12 -export \
+    -in /etc/letsencrypt/live/mydomain.com/cert.pem \
+    -inkey  /etc/letsencrypt/live/mydomain.com/privkey.pem \
+    -out mydomain.com.p12 \
+    -certfile /etc/letsencrypt/live/mydomain.com/chain.pem \
+    -name eap
+
+* **openssl:** The name of the app
+* **pkcs12:** The PKCS format of certificate file
+* **-export:** export the certificate to a file
+* **-in:** loading the X.509 file, following with the file path name of the X.509 certificate.
+* **-inkey:** loading certificate private key, following with the file path name of the private key.
+* **-out:** specify the output file name, we use mydomain.com.p12 here and you can choose an appropriate name yourself.
+* **-certfile:** loading the chain of the certifications, following with the file path name of the certification file.
+* **-name:** the name of this certificate. Please keep it as eap so you don't have to change the controller property settings.
+* **(When prompted to enter the password): ** The app will prompt to ask adding a password for this certificate. Enter any legal password. We use the **epac** as the password in this recepie.
+  
+Installing the certificate in a Java keystore
+---------------------------------------------
+ 
+The keytool app is coming with your previous installed JVM 8. Enter the command like this to create a java key store.
+
+.. code-block:: bash
+
+    keytool -importkeystore \
+    -destkeystore myDomain.jks \
+    -deststorepass keyStorePassword \
+    -destkeypass keyPassword \
+    -srckeystore mydomain.com.p12 \
+    -srcstoretype PKCS12 \
+    -srcstorepass eapc
+
+* **keytool:** The name of the app
+* **-importkeystore:** Asking the app to import a key to the key store.
+* **-destkeystore:** export the key store to a file. You can change the name to a preferred one. We use **myDomain.jks** as the file name here.
+* **-deststorepass:** The destination key store password. Setup your own key store password here.
+* **-destkeypass:** The destination private key password. Setup your own private key password here.
+* **-srckeystore:** specify the name of the PCKS key file name. **mydomain.com.p12** in this example.
+* **-srcstoretype:** The type of the certificate. Enter **PCKS12** as the type
+* **-srcstorepass:** The key password you have set in previous step. Enter **epac** if you enter the same password in this recepie.
+
+Upload the Java keystore file to the controller
+-----------------------------------------------
+
+.. image:: /images/https_import.png
     :align: center
- 
-We’ve gone through the most difficult time. The COVID19 forced us to close the stores to prevent the spread of the virus. Now, we are opening our business again. And, we are opening carefully and not letting the variant virus shut us down again.
-eMenu is one of the popular strategies for restaurants reducing the contact over the  COVID19 close down period. And, it remains popular for its possible interaction and low service cost.
- 
-The Online version (with cell phone data)
------------------------------------------
- 
-The easiest way to build an eMenu is building a website and making a QR code for customer scanning on the table.
- 
-The website
-^^^^^^^^^^^
- 
-There are many free services for simple website hosting, such as Google Business (http://www.google.com/business) You can simply take a picture of your paper menu, or you can upload your menu book and organize it with the web design tools. 
- 
-You are will have a unique web address for your online menu such as http:// {your_business_name}.mybusiness.site for Google myBusiness. We can then use this web address making the QR code in the next step.
- 
-The QR code
-^^^^^^^^^^^
- 
-Search the free tool online to create QR code representing your menu site.
 
-Here is an example with Free Generator QR Online (https://free-qr.com/)
+Click on the **Import** button to choose the java key store we've just created. And then, enter the keystore password and private key password. Then, scroll down to click on the **Save** button to save the change.
 
-.. image:: /images/rp_qr_generator.png
+Reboot the controller
+---------------------
+
+You need to restart the controller to make it in effect. Go to **Maintenance > Reboot** to reboot your controller.
+
+.. image:: /images/reboot.png
     :width: 70%
     :align: center
 
-1. Choose the **Link** as the data type.
-2. Enter the Link (URL) with your menu website address.
-3. Click **Generate QR Code**
-4. Download the QR code
+Now you can visit your domain url with the port in your settings
 
-Then, you can print the QR code on the paper that sits on the table for scanning. 
-
-And that’s it. You have the most simple eManu setup.
- 
-The Online Version (with local WiFi)
-------------------------------------
- 
-Creating the Online eMenu is quick and easy, but the previous set up relies on the data usage of your customers’ data plan. If the cell phone connection is not be good at your location or you simply want to provide a more responsive eMenu, you can provide a local WiFi access.
- 
-You need a wireless access point with portal authentication feature to connect the phone to the store WiFi, and then redirect the connection to your eMenu. You need wireless access points which is capable signing in new client and redirect the traffic to designated location. The feature is portal authentication. All Omada EAP access supports the portal authentication. You can set up a single EAP in standalone mode or multiple EAP in controller mode with this feature.
- 
-Set up WiFi Portal in standalone mode
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- 
-1. Login to your EAP by entering the IP address or http://tplinkeap.net
- 
-2. Create an SSID with or without password. This wireless is going to be public accessed, the security is not the focus in this use case.
-
-.. image:: /images/rp_table_qr_code.jpg
+.. image:: /images/controller_port.png
     :width: 70%
     :align: center
- 
-3. Create a portal profile and connect to the SSID you have created
- 
-4. Check the redirection option 
+
+.. note::
+
+  1. The google browser may remember your last visit to the url and complain with the cert_err. Try to visit the url with incognito mode.
+  2. In incognito mode, the google chrome may complain **Bad Request, This combination of host and port requires TLS.** Please just change the port number (80 or 8088) with HTTP. The controller will then redirect to HTTPS with signed TLS.
