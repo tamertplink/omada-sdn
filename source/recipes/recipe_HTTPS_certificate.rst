@@ -3,7 +3,7 @@ Adding your own HTTPS certificate to the controller
 
 .. note::
 
-  This recipe is only good for hardware controllers (OC200 or OC300) or software controllers, not for cloud-based controller (CBC). When installing the HTTPS certification, you have to use the direct access to the controller. Remote access through the cloud connection is not going to work (url starts with https//:omada.tplinkcloud.com).
+  This recipe is only good for hardware controllers (OC200 or OC300) or software controllers, not for cloud-based controller (CBC).
 
 This recipe demonstrates how to add a X.509 certificate on a controller version 5.0 and above. You can set up the HTTPS certificate to the previous version of controllers. A better resource on howto install the certificate on controller 2.7 and above is available on the community post https://community.tp-link.com/en/business/forum/topic/150083
 
@@ -14,8 +14,6 @@ Prerequisite
 * You need a public URL registered with a domain service, the signed X.509 certificate and chain certifications. Most of the CA service providers are giving out the .pem X.509 certificate and .crt chain certificates. 
 
 * The controller accepts the Java key store file to store the HTTPS certificate. Therefore, you need the OPENSSL app to transformat the X.509 format to PKCS format and then use Java  TOOLKIT utility to make the key store.
-
-* To upload the HTTPS Java key store, you need to visit your controller directly, accessing the controller through cloud connection is not going to work.
 
 The certificate
 ---------------
@@ -58,12 +56,12 @@ An example command can be:
 * **-out:** specify the output file name, we use mydomain.com.p12 here and you can choose an appropriate name yourself.
 * **-certfile:** loading the chain of the certifications, following with the file path name of the certification file.
 * **-name:** the name of this certificate. Please keep it as eap so you don't have to change the controller property settings.
-* **(When prompted to enter the password):** The app will prompt to ask adding a password for this certificate. Enter any legal password. We use the **epac** as the password in this recepie.
+* **(When prompted to enter the password):** The app will prompt you to ask adding a password for this certificate. Enter any legal password. We use the **epac** as the password in this recipe.
   
 Installing the certificate in a Java keystore
 ---------------------------------------------
  
-The keytool app is coming with your previous installed JVM 8. Enter the command like this to create a java key store.
+The keytool app is coming with your previously installed JVM 8. Enter the command like this to create a java key store.
 
 .. code-block:: bash
 
@@ -82,7 +80,7 @@ The keytool app is coming with your previous installed JVM 8. Enter the command 
 * **-destkeypass:** The destination private key password. Setup your own private key password here.
 * **-srckeystore:** specify the name of the PCKS key file name. **mydomain.com.p12** in this example.
 * **-srcstoretype:** The type of the certificate. Enter **PCKS12** as the type
-* **-srcstorepass:** The key password you have set in previous step. Enter **epac** if you enter the same password in this recepie.
+* **-srcstorepass:** The key password you have set in the previous step. Enter **epac** if you enter the same password in this recepie.
 
 Upload the Java keystore file to the controller
 -----------------------------------------------
