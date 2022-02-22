@@ -76,7 +76,7 @@ The system setup is done by now. You can then click through the overview to fami
 .. image:: /images/omada_controller_setup_7.png
     :align: center
 
-3. Customizations
+4. Customizations
 -----------------
 
 Double check if all the devices are adopted. Check on the :doc:`/faq/faq` for trouble shootings.
