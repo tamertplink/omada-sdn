@@ -56,7 +56,7 @@ SSH from macOS
 
 When you try to access the Omada switch directly you may see the error message:
 
-.. code-block:: bash
+.. code-block:: console
     
     user@MacBook-Pro ~ % ssh admin@192.168.0.1
     Unable to negotiate with 192.168.0.1 port 22: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
@@ -66,7 +66,7 @@ Which means your macOS is not supporting the key exchange method. You can follow
 1. Open terminal
 2. Edit the SSH configuration file
 
-.. code-block:: bash
+.. code-block:: console
 
     user@MacBook-Pro ~ % sudo nano /etc/ssh/ssh_config
     Password: 
@@ -79,7 +79,7 @@ Which means your macOS is not supporting the key exchange method. You can follow
 
 4. go to the bottom of the file and insert these lines:
 
-.. code-block:: bash
+.. code-block:: console
 
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
     MACs hmac-md5,hmac-sha1,umac-64@openssh.com
@@ -90,7 +90,7 @@ Which means your macOS is not supporting the key exchange method. You can follow
 
 6. Then try to access the switch again:
 
-.. code-block:: bash
+.. code-block:: console
 
     user@MacBook-Pro ~ % ssh admin@192.168.0.1
     admin@192.168.0.1's password: 

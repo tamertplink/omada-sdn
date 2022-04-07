@@ -1,3 +1,8 @@
+.. note::
+
+   The controller 5.1.7 and up can take the signed X.509 certificate directly so you don't have to tranform the type of certificate. For older controllers, please follow the steps on this page for certificate installation.
+
+
 Adding your own HTTPS certificate to the controller
 ===================================================
 

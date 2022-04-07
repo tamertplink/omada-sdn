@@ -57,17 +57,17 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 3.1.2 Ceiling mount EAPs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-+------------+-----------+-----------+-----------+-----------+
-| Model      | EAP610    | EAP245    | EAP225    | EAP115    |
-+============+===========+===========+===========+===========+
-| Class      | 802.11ax  | 802.11ac  | 802.11ac  | 802.11n   |
-+------------+-----------+-----------+-----------+-----------+
-| Speed      | AX1800    | AC1750    | AC1350    | N300      |
-+------------+-----------+-----------+-----------+-----------+
-| Ethernet   | Gigabit   | Gigabit   | Gigabit   | 10/100    |
-+------------+-----------+-----------+-----------+-----------+
-| CBC        | No        | Yes       | Yes       | No        |
-+------------+-----------+-----------+-----------+-----------+
++------------+-----------+-----------+----------+-----------+-----------+-----------+
+| Model      | EAP670    | EAP650    | EAP610   | EAP245    | EAP225    | EAP115    |
++============+===========+===========+===========+==========+===========+===========+
+| Class      | 802.11ax  | 802.11ax  | 802.11ax | 802.11ac  | 802.11ac  | 802.11n   |
++------------+-----------+-----------+----------+-----------+-----------+-----------+
+| Speed      | AX5400    | AX3000    | AX1800   | AC1750    | AC1350    | N300      |
++------------+-----------+-----------+----------+-----------+-----------+-----------+
+| Ethernet   | 2.5G      | Gigabit   | Gigabit  | Gigabit   | Gigabit   | 10/100    |
++------------+-----------+-----------+----------+-----------+-----------+-----------+
+| CBC        | Yes       | Yes       | Yes      | Yes       | Yes       | No        |
++------------+-----------+-----------+----------+-----------+-----------+-----------+
 
 3.1.3 In-Wall EAPs
 ^^^^^^^^^^^^^^^^^^
@@ -122,6 +122,7 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 
 * TL-SG2008 JetStream 8-Port Gigabit Smart Switch
 * \ :sup:`[cbc]` TL-SG3210(UN)V3.0 JetStream 8-Port Gigabit L2+ Managed Switch with 2 SFP Slots
+* \ :sup:`[cbc]` TL-SG2218 JetStream 16-Port Gigabit and 2-Port SFP Smart Managed Switch
 * \ :sup:`[cbc]` TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
@@ -131,8 +132,8 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 
 * TL-SG2008P JetStream 8-Port Gigabit Smart Switch with 4-Port PoE+
 * TL-SG2010P JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP
-* TL-SG2210MP JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP (high power)
-* \ :sup:`[cbc]` TL-SG2428P JetStream 24-Port Gigabit Smart Switch with 24-Port PoE+ and 4-port SFP
+* \ :sup:`[cbc]` TL-SG2210MP(UN)V3.0 JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP (high power)
+* \ :sup:`[cbc]` TL-SG2428P(UN)V1.0 JetStream 24-Port Gigabit Smart Switch with 24-Port PoE+ and 4-port SFP
 * \ :sup:`[cbc]` TL-SG3428MP JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
 * \ :sup:`[cbc]` TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
 * \ :sup:`[cbc]` TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
@@ -141,6 +142,7 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * \ :sup:`[cbc]` TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
+* \ :sup:`[cbc]` TL-SX3016F(UN)V1.0 16-Port 10G SFP+ managed switch
 * \ :sup:`[cbc]` TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
 
 5. Load Balance VPN Router
@@ -151,7 +153,7 @@ The SafeStream Load Balance VPN routers were designed for small offices as well 
 There are two SMB routers in this category ER605 and ER7206. Both of the routers were designed for small offices and remote offices. The ER7206 is in a 9 inches wide metal box and ER605 is 6 inch in width. ER605 has a wall mount slot for easy placement.
 
 .. note::
-    TL-SG605 was the previous model number of ER605 and the TL-SG7206 was the previous model number of ER7206.
+    TL-SG605 was the previous model number of ER605 and the TL-SG7206 was the previous model number of ER7206. 
 
 5.1 Comparison of the ER7206 and ER605
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -184,6 +186,8 @@ There are many features the SafeStream routers can do in a small office environm
 * **Load Balance** The SafeStream SMB router can connect up to 4 ISPs. Whether you want to make multiple connections to balance the traffic loads or simply make a connection as a fallback line, the SafeStream router can do the job for you.
 
 * **Digital Phone System Friendly** The SafeStream works with different phone systems. You can enable/disable the SIP ALG. Set the priority route, using ACL to allow or block visitors 
+
+* **Mobility** The ER605 version 2 adding a USB WAN port connecting LTE dongle or 4G hot spot for backup link or mobility.
 
 .. note::
     The OpenVPN feature is only available when the SafeStream router is in the controller model

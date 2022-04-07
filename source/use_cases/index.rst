@@ -11,8 +11,6 @@ Omada SDN System Examples
     uc_office_church
     uc_office_phone
     uc_office_warehouse
-    uc_hotel
-    uc_hotel_outdoor
     uc_pos
     uc_retail
     uc_school

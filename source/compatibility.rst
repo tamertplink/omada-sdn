@@ -42,8 +42,11 @@ Controller version 5 Omada SDN
 
 * Wireless Access Point (WiFi 6)
     
+    * EAP670 (US)V1.0 AX5400 dual-band Wi-Fi 6 wireless access point
     * EAP660 HD(US)V1.0 AX3600 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+    * EAP650 (US)V1.0 AX3000 dual-band Wi-Fi 6 wireless access point
     * EAP620 HD(US)V1.0 AX1800 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+    * EAP610 (US)V1.0 AX1800 dual-band Wi-Fi 6 wireless access point
 
 * Wireless Access Point (802.11ac wave 2)
  
