@@ -16,7 +16,7 @@ There are three different flavors of controllers in Omada SDN Solution, hardware
 
 .. note::
 
-    The Omada Cloud-Based Controller, CBC was designed for partner enterprises. Please register the business partner account and request for the services. https://partner.tp-link.com/
+    The Omada Cloud-Based Controller, CBC was designed for easy to use. The on-line subscription is available in the http://omada.tplinkcloud.com portal. For off-line partner subscriptions, please register the business partner account and then request services. https://partner.tp-link.com/
 
 The network control logics in different controllers are the same. Network devices, switch, router, and wireless access point, can be managed together as a site. A site is a logical network unit consisting of a group of network devices. In most of the cases, a logical site is mapping to a physical network site. In some cases, you can set up logical sites purely for managing purposes.
 
@@ -57,17 +57,19 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 3.1.2 Ceiling mount EAPs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-+------------+-----------+-----------+----------+-----------+-----------+-----------+
-| Model      | EAP670    | EAP650    | EAP610   | EAP245    | EAP225    | EAP115    |
-+============+===========+===========+===========+==========+===========+===========+
-| Class      | 802.11ax  | 802.11ax  | 802.11ax | 802.11ac  | 802.11ac  | 802.11n   |
-+------------+-----------+-----------+----------+-----------+-----------+-----------+
-| Speed      | AX5400    | AX3000    | AX1800   | AC1750    | AC1350    | N300      |
-+------------+-----------+-----------+----------+-----------+-----------+-----------+
-| Ethernet   | 2.5G      | Gigabit   | Gigabit  | Gigabit   | Gigabit   | 10/100    |
-+------------+-----------+-----------+----------+-----------+-----------+-----------+
-| CBC        | Yes       | Yes       | Yes      | Yes       | Yes       | No        |
-+------------+-----------+-----------+----------+-----------+-----------+-----------+
++------------+-----------+----------+----------+-----------+-----------+-----------+
+| Model      | EAP670    | EAP650   | EAP610   | EAP245    | EAP225    | EAP115    |
++============+===========+==========+==========+===========+===========+===========+
+| Class      | 802.11ax  | 802.11ax | 802.11ax | 802.11ac  | 802.11ac  | 802.11n   |
++------------+-----------+----------+----------+-----------+-----------+-----------+
+| Speed      | AX5400    | AX3000   | AX1800   | AC1750    | AC1350    | N300      |
++------------+-----------+----------+----------+-----------+-----------+-----------+
+| Ethernet   | 2.5G      | Gigabit  | Gigabit  | Gigabit   | Gigabit   | 10/100    |
++------------+-----------+----------+----------+-----------+-----------+-----------+
+| CBC        | Yes       | Yes      | Yes      | Yes       | Yes       | No        |
++------------+-----------+----------+----------+-----------+-----------+-----------+
+
+* EAP653 is an industrial package remodeled from EAP650 and removing the power adapter accessory.
 
 3.1.3 In-Wall EAPs
 ^^^^^^^^^^^^^^^^^^
@@ -87,17 +89,17 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 3.1.3 Outdoor EAPs
 ^^^^^^^^^^^^^^^^^^
 
-+------------+----------------+----------------+
-| Model      | EAP225-Outdoor | EAP110-Outdoor | 
-+============+================+================+
-| Class      | 802.11ac       | 802.11n        | 
-+------------+----------------+----------------+
-| Speed      | AC1200         | N300           | 
-+------------+----------------+----------------+
-| Ethernet   | Gigabit        | 10/100         |
-+------------+----------------+----------------+
-| CBC        | Yes            | No             |
-+------------+----------------+----------------+
++------------+----------------+----------------+----------------+
+| Model      | EAP610-Outdoor | EAP225-Outdoor | EAP110-Outdoor | 
++============+================+================+================+
+| Class      | 802.11ax       | 802.11ac       | 802.11n        | 
++------------+----------------+----------------+----------------+
+| Speed      | AX1800         | AC1200         | N300           | 
++------------+----------------+----------------+----------------+
+| Ethernet   | Gigabit        | Gigabit        | 10/100         |
++------------+----------------+----------------+----------------+
+| CBC        | Yes            | Yes            | No             |
++------------+----------------+----------------+----------------+
 
 4. Managed Switches
 -------------------
@@ -126,6 +128,7 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 * \ :sup:`[cbc]` TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
+* \ :sup:`[cbc]` TL-SG3452X JetStream 48-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
 
 4.3 PoE Gigabit Switches
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -144,6 +147,7 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 * \ :sup:`[cbc]` TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
 * \ :sup:`[cbc]` TL-SX3016F(UN)V1.0 16-Port 10G SFP+ managed switch
 * \ :sup:`[cbc]` TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
+* \ :sup:`[cbc]` TL-SG3206HPP JetStream 4-Port 10GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 4-Port PoE++ (60W)
 
 5. Load Balance VPN Router
 --------------------------
@@ -173,7 +177,7 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 | IPSEC VPN  | 291.6Mbps | 41.5Mbps  |
 | Throughput |           |           |
 +------------+-----------+-----------+
-| CBC        | Yes       | No        |
+| CBC        | Yes       | Yes       |
 +------------+-----------+-----------+
 
 5.2 Key Features

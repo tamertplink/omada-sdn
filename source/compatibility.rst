@@ -16,6 +16,11 @@ Omada SDN CBC(Cloud based controller)
     * Wireless Access Point (WiFi 6)
         
         * EAP660 HD(US)V1.0 AX3600 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+        * EAP620 HD(US)V2.2 AX1800 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+
+        * EAP670 (US)V1.0 AX5400 dual-band Wi-Fi 6 wireless access point (500+ clients)
+        * EAP650 (US)V1.0 AX3000 dual-band Wi-Fi 6 wireless access point (500+ clients)
+        * EAP610 (US)V2.2 AX1800 dual-band Wi-Fi 6 wireless access point (500+ clients)
     
     * Wireless Access Point (802.11ac wave 2)
      
@@ -29,6 +34,7 @@ Omada SDN CBC(Cloud based controller)
         * TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
         * TL-SG3428XMP(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP+ 10G uplinks
         * TL-SG3428X(UN)V1.0 24-port managed gigabit switch with 4 SFP+ 10G uplinks
+        * TL-SG3452X(UN)V1.0 48-port managed gigabit switch with 4 SFP+ 10G uplinks
         * TL-SG3210XHP-M2 8-Port managed POE+ 2.5GBASE-T switch with 2 10GE SFP+ uplinks
         * TL-SG2210MP(UN)V1.0 8-port managed POE+ gigabit switch with 2 SFP uplinks
     
@@ -67,6 +73,7 @@ Controller version 5 Omada SDN
     * TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
     * TL-SG3428XMP(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP+ 10G uplinks
     * TL-SG3428X(UN)V1.0 24-port managed gigabit switch with 4 SFP+ 10G uplinks
+    * TL-SG3452X(UN)V1.0 48-port managed gigabit switch with 4 SFP+ 10G uplinks
 
     * TL-SG3452P(UN)V1.0 48-port managed POE+ gigabit switch with 4 SFP uplinks
     * TL-SG3452(UN)V1.0 48-port managed gigabit switch with 4 SFP uplinks
