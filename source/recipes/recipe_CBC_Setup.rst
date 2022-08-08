@@ -1,8 +1,8 @@
 Recipe: How to set up an Omada Cloud-Based Controller
 =====================================================
  
-Getting the TP-Link ID
-----------------------
+Getting your TP-Link ID
+-----------------------
 The TP-Link Omada service is available at https://omada.tplinkcloud.com You can sign up a new account for yourself or your organization to access Omada services. A valid personal or work email address is required.
 
 .. image:: /images/OmadaRegistration.png
@@ -46,7 +46,7 @@ You don't need licenses for hardware or software controller. The Cloud-Based Con
 The CBC licenses are not transferrable. Please make sure the TP-Link ID you are using to purchase the licenses is the one you want to control the devices. More detailed descriptions of the CBC licenses is available here: 
 
 .. raw:: html
-   
+
    <a href="https://www.tp-link.com/us/omada-sdn/license/" target="_blank">An Introduction to CBC Licensing</a>
    
 
