@@ -1,4 +1,4 @@
-Omada SDN Example : House of Warship
+Omada SDN Example : House of Worship
 ====================================
 
 .. image:: /images/uc_church.jpg
