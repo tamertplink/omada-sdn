@@ -57,17 +57,17 @@ The Omada EAPs can be grouped by their model numbers. The Omada EAP6xx are WiFi 
 3.1.2 Ceiling mount EAPs
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-+------------+-----------+----------+----------+-----------+-----------+-----------+
-| Model      | EAP670    | EAP650   | EAP610   | EAP245    | EAP225    | EAP115    |
-+============+===========+==========+==========+===========+===========+===========+
-| Class      | 802.11ax  | 802.11ax | 802.11ax | 802.11ac  | 802.11ac  | 802.11n   |
-+------------+-----------+----------+----------+-----------+-----------+-----------+
-| Speed      | AX5400    | AX3000   | AX1800   | AC1750    | AC1350    | N300      |
-+------------+-----------+----------+----------+-----------+-----------+-----------+
-| Ethernet   | 2.5G      | Gigabit  | Gigabit  | Gigabit   | Gigabit   | 10/100    |
-+------------+-----------+----------+----------+-----------+-----------+-----------+
-| CBC        | Yes       | Yes      | Yes      | Yes       | Yes       | No        |
-+------------+-----------+----------+----------+-----------+-----------+-----------+
++------------+-----------+---------------+----------+-----------+-----------+-----------+
+| Model      | EAP670    | EAP650/EAP653 | EAP610   | EAP245    | EAP225    | EAP115    |
++============+===========+===============+==========+===========+===========+===========+
+| Class      | 802.11ax  | 802.11ax      | 802.11ax | 802.11ac  | 802.11ac  | 802.11n   |
++------------+-----------+---------------+----------+-----------+-----------+-----------+
+| Speed      | AX5400    | AX3000        | AX1800   | AC1750    | AC1350    | N300      |
++------------+-----------+---------------+----------+-----------+-----------+-----------+
+| Ethernet   | 2.5G      | Gigabit       | Gigabit  | Gigabit   | Gigabit   | 10/100    |
++------------+-----------+---------------+----------+-----------+-----------+-----------+
+| CBC        | Yes       | Yes           | Yes      | Yes       | Yes       | No        |
++------------+-----------+---------------+----------+-----------+-----------+-----------+
 
 * EAP653 is an industrial package remodeled from EAP650 and removing the power adapter accessory.
 
@@ -127,6 +127,7 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 * \ :sup:`[cbc]` TL-SG2218 JetStream 16-Port Gigabit and 2-Port SFP Smart Managed Switch
 * \ :sup:`[cbc]` TL-SG3428 JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3428X JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
+* \ :sup:`[cbc]` TL-SG3428XF JetStream 20-Port SFP, 4-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3452 JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch
 * \ :sup:`[cbc]` TL-SG3452X JetStream 48-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
 
@@ -138,14 +139,20 @@ The TL-SG3210XHP-M2 is an 8-port 2.5G managed switch with two SFP+ 10G uplink po
 * \ :sup:`[cbc]` TL-SG2210MP(UN)V3.0 JetStream 8-Port Gigabit Smart Switch with 8-Port PoE+ and 2-port SFP (high power)
 * \ :sup:`[cbc]` TL-SG2428P(UN)V1.0 JetStream 24-Port Gigabit Smart Switch with 24-Port PoE+ and 4-port SFP
 * \ :sup:`[cbc]` TL-SG3428MP JetStream 24-Port Gigabit and 4-Port SFP L2+ Managed Switch with 24-Port PoE+
-* \ :sup:`[cbc]` TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10GE SFP+ L2+ Managed Switch with 24-Port PoE+
+* \ :sup:`[cbc]` TL-SG3428XMP JetStream 24-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch with 24-Port PoE+
 * \ :sup:`[cbc]` TL-SG3452P JetStream 48-Port Gigabit and 4-Port SFP L2+ Managed Switch with 48-Port PoE+
+* \ :sup:`[cbc]` TL-SG3452XP JetStream 48-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch with 48-Port PoE+
 
-4.4 PoE Multi-Gig Switches
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.4 Non-PoE Multi-Gig Switches
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * \ :sup:`[cbc]` TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
 * \ :sup:`[cbc]` TL-SX3016F(UN)V1.0 16-Port 10G SFP+ managed switch
+
+
+4.5 PoE Multi-Gig Switches
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * \ :sup:`[cbc]` TL-SG3210XHP-M2 JetStream 8-Port 2.5GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 8-Port PoE+
 * \ :sup:`[cbc]` TL-SG3206HPP JetStream 4-Port 10GBASE-T and 2-Port 10GE SFP+ L2+ Managed Switch with 4-Port PoE++ (60W)
 
@@ -162,23 +169,23 @@ There are two SMB routers in this category ER605 and ER7206. Both of the routers
 5.1 Comparison of the ER7206 and ER605
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-+------------+-----------+-----------+
-| Model      | ER7206    | ER605     |
-+============+===========+===========+
-| NAT        | 940Mbps   | 940Mbps   |
-| Throughput |           |           |
-+------------+-----------+-----------+
-| Concurrent | 150K      | 25K       |
-| Session    |           |           |
-+------------+-----------+-----------+
-| New Session| 5.5K/s    | 2.4K/s    |
-| Rate       |           |           |
-+------------+-----------+-----------+
-| IPSEC VPN  | 291.6Mbps | 41.5Mbps  |
-| Throughput |           |           |
-+------------+-----------+-----------+
-| CBC        | Yes       | Yes       |
-+------------+-----------+-----------+
++------------+-----------+-----------+-----------+
+| Model      | ER8411    | ER7206    | ER605     |
++============+===========+===========+===========+
+| NAT        | 9.4Gbps   | 940Mbps   | 940Mbps   |
+| Throughput |           |           |           |
++------------+-----------+-----------+-----------+
+| Concurrent | 2,300K    | 150K      | 25K       |
+| Session    |           |           |           |
++------------+-----------+-----------+-----------+
+| New Session| 20K/s     | 5.5K/s    | 2.4K/s    |
+| Rate       |           |           |           |
++------------+-----------+-----------+-----------+
+| IPSEC VPN  | 2.1Gbps   | 291.6Mbps | 41.5Mbps  |
+| Throughput |           |           |           |
++------------+-----------+-----------+-----------+
+| CBC        | Yes       | Yes       | Yes       |
++------------+-----------+-----------+-----------+
 
 5.2 Key Features
 ~~~~~~~~~~~~~~~~
@@ -187,14 +194,14 @@ There are many features the SafeStream routers can do in a small office environm
 
 * **IPSEC, L2TP, and OpenVPN** The IPSEC is the most popular VPN connection in use in the industry. The SafeStream IPSEC VPN connection can act as a server connecting to the clients remotely at home or at the coffee shop. L2TP (over IPSEC) provides an easier point to point connection through firewalls. OpenVPN is a proprietary, but very popular, VPN connection. You can almost set the end point anywhere and the OpenVPN can connect you through NAT and firewalls with no effort.
 
+* **SSL VPN (ER8411 only)** This is an advanced type of OpenVPN. The can still connecting to the OpenVPN server. And, each client can assign the designated resources. More granular control on your shared resources.
+
 * **Load Balance** The SafeStream SMB router can connect up to 4 ISPs. Whether you want to make multiple connections to balance the traffic loads or simply make a connection as a fallback line, the SafeStream router can do the job for you.
 
 * **Digital Phone System Friendly** The SafeStream works with different phone systems. You can enable/disable the SIP ALG. Set the priority route, using ACL to allow or block visitors 
 
-* **Mobility** The ER605 version 2 adding a USB WAN port connecting LTE dongle or 4G hot spot for backup link or mobility.
+* **Mobility** The ER605 version 2 and ER8411 adding a USB WAN port connecting LTE dongle or 4G hot spot for backup link or mobility.
 
-.. note::
-    The OpenVPN feature is only available when the SafeStream router is in the controller model
 
 5.3 Site-to-Site vs. Client-to-Site VPN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -208,23 +215,23 @@ If you have a single device you want to connect to the office securely. You can 
 
 VPN secure tunnel requires encryption and decryption to the traffic in both directions. Depending on the method of the encryption and decryption you choose, the passing through speed and tunnel capacity will be different.
 
-+---------------+--------+-------+
-| Model         | ER7206 | ER605 |
-+===============+========+=======+
-| IPSEC Tunnels | 100    | 20    |
-| with 3DES     |        |       |
-+---------------+--------+-------+
-| OpenVPN       | 50     | 16    |
-| Tunnel        |        |       |
-+---------------+--------+-------+
-| OpenVPN       | 10     | 10    |
-| Client        |        |       |
-+---------------+--------+-------+
++---------------+--------+--------+-------+
+| Model         | ER8411 | ER7206 | ER605 |
++===============+========+========+=======+
+| IPSEC Tunnels | 300    | 100    | 20    |
+| with 3DES     |        |        |       |
++---------------+--------+--------+-------+
+| OpenVPN       | 110    | 50     | 16    |
+| Tunnel        |        |        |       |
++---------------+--------+--------+-------+
+| OpenVPN       | 10     | 10     | 10    |
+| Client        |        |        |       |
++---------------+--------+--------+-------+
 
 5.5 Load Balance
 ~~~~~~~~~~~~~~~~
 
-The load balance SafeStream routers provided are not on the datagram based, but on session based. You can set your policy allowing which session going through which router and the session fall back can be performed based on the fall back rules. 
+The load balance SafeStream routers provided are not on the data gram based, but on session based. You can set your policy allowing which session going through which router and the session fall back can be performed based on the fall back rules. 
 
 6. Your Deployment, Your Choice
 -------------------------------
