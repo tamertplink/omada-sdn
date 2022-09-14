@@ -32,11 +32,15 @@ Omada SDN CBC(Cloud based controller)
     * JetStream Managed Switch
         
         * TL-SX3008F(UN)V1.0 8-Port 10G SFP+ managed switch
-        * TL-SG3428XMP(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP+ 10G uplinks
-        * TL-SG3428X(UN)V1.0 24-port managed gigabit switch with 4 SFP+ 10G uplinks
-        * TL-SG3452X(UN)V1.0 48-port managed gigabit switch with 4 SFP+ 10G uplinks
+        * TL-SX3016F(UN)V1.0 16-Port 10G SFP+ managed switch
+        * TL-SG3210(UN)V3.0 JetStream 8-Port Gigabit L2+ Managed Switch with 2 SFP Slots
         * TL-SG3210XHP-M2 8-Port managed POE+ 2.5GBASE-T switch with 2 10GE SFP+ uplinks
+        * TL-SG3428X(UN)V1.0 24-port managed gigabit switch with 4 SFP+ 10G uplinks
+        * TL-SG3428XMP(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP+ 10G uplinks
+        * TL-SG3452X(UN)V1.0 48-port managed gigabit switch with 4 SFP+ 10G uplinks
+        
         * TL-SG2210MP(UN)V1.0 8-port managed POE+ gigabit switch with 2 SFP uplinks
+        * TL-SG3452XP JetStream 48-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch with 48-Port PoE+
     
     * SafeStream Business Router
         
@@ -50,6 +54,7 @@ Controller version 5 Omada SDN
     
     * EAP670 (US)V1.0 AX5400 dual-band Wi-Fi 6 wireless access point
     * EAP660 HD(US)V1.0 AX3600 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
+    * EAP653 (US)V1.0 AX3000 dual-band Wi-Fi 6 wireless access point (Installer Package)
     * EAP650 (US)V1.0 AX3000 dual-band Wi-Fi 6 wireless access point
     * EAP620 HD(US)V1.0 AX1800 dual-band Wi-Fi 6 high density wireless access point (1,024 clients)
     * EAP610 (US)V1.0 AX1800 dual-band Wi-Fi 6 wireless access point
@@ -75,12 +80,17 @@ Controller version 5 Omada SDN
     * TL-SG3428X(UN)V1.0 24-port managed gigabit switch with 4 SFP+ 10G uplinks
     * TL-SG3452X(UN)V1.0 48-port managed gigabit switch with 4 SFP+ 10G uplinks
 
+    * TL-SG3452XP(UN)V1.0 JetStream 48-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch with 48-Port PoE+
+    * TL-SG3452X(UN)V1.0 JetStream 48-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
     * TL-SG3452P(UN)V1.0 48-port managed POE+ gigabit switch with 4 SFP uplinks
     * TL-SG3452(UN)V1.0 48-port managed gigabit switch with 4 SFP uplinks
+    * TL-SG3428XF(UN)V1.0 JetStream 20-Port SFP, 4-Port Gigabit and 4-Port 10G SFP+ L2+ Managed Switch
+    * TL-SG3428X(UN)V1.0 24-port managed gigabit switch with 4 SFP+ 10G uplinks
     * TL-SG3428MP(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP uplinks
     * TL-SG3428(UN)V1.0 24-port managed gigabit switch with 4 SFP uplinks
-    * TL-SG3210XHP-M2 8-Port managed POE+ 2.5GBASE-T switch with 2 10GE SFP+ uplinks
+    * TL-SG3210XHP-M2(UN)V1.0 8-Port managed POE+ 2.5GBASE-T switch with 2 10GE SFP+ uplinks
     * TL-SG2428P(UN)V1.0 24-port managed POE+ gigabit switch with 4 SFP uplinks
+    * TL-SG2218(UN)V1.0 JetStream 16-Port Gigabit and 2-Port SFP Smart Managed Switch
     * TL-SG2210MP(UN)V1.0 8-port managed POE+ gigabit switch with 2 SFP uplinks
     * TL-SG2210P(UN)V3.2 8-port managed POE+ gigabit switch with 2 SFP uplinks
     * TL-SG2008P(UN)V1.0 8-port managed 4/POE+ gigabit switch
@@ -88,6 +98,7 @@ Controller version 5 Omada SDN
 
 * SafeStream Business Router
     
+    * ER8411 10G Load Balance VPN Router
     * ER7206 (TL-ER7206) Gigabit Load Balance VPN Router
     * ER605 (TL-R605) Small Office Gigabit Load Balance VPN Router
 
